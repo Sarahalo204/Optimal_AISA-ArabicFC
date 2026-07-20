@@ -1,0 +1,545 @@
+{"id": 0, "query": "ممكن تشيكلي على مخالفات المرور بالرقم القومي 987654321؟", "tool_called": "check_traffic_violations", "arguments": {"id_number": 987654321}}
+{"id": 1, "query": "ممكن تقولي اتجاه القبلة في الجيزة؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:الجيزة"}}
+{"id": 2, "query": "أريد تحويل ١٥٠٠ ريال سعودي إلى دولار أمريكي.", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:1500,from_currency:SAR,to_currency:USD"}}
+{"id": 3, "query": "ابي اشوف مخالفات المرور اللي عليّ برقم الهوية 4433221100", "tool_called": "check_traffic_violations", "arguments": {"id_number": 4433221100}}
+{"id": 4, "query": "إيه اتجاه القبلة في بورتسودان؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:بورتسودان"}}
+{"id": 5, "query": "كيف بحسب زكاة المال إذا عندي ٥٠٠٠٠ ليرة سورية؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:50000,currency:SYP,type:cash"}}
+{"id": 6, "query": "وين ألقى باقات عمرة لشخصين في جدة؟", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:جدة,num_persons:2"}}
+{"id": 7, "query": "ممكن تترجم ده للألماني؟ أنا مشغول جدا النهاردة", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:de,text:أنا مشغول جدا النهاردة"}}
+{"id": 8, "query": "أريد البحث عن آية فيها كلمة الرحمة", "tool_called": "search_quran", "arguments": {"raw_values": "query:الرحمة"}}
+{"id": 9, "query": "حل لي هذه المعادلة: ٢س + ٥ = ١١", "tool_called": "none", "arguments": {}}
+{"id": 10, "query": "في إمكانية تساعدني بموضوع؟", "tool_called": "none", "arguments": {}}
+{"id": 11, "query": "قارن لي أسعار هاتف iPhone 13 في مصر والسعودية", "tool_called": "compare_prices", "arguments": {"raw_values": "country:مصر,product_name:iPhone 13"}}
+{"id": 12, "query": "كم تبلغ الجمارك على حقيبة يد قيمتها 500 ريال في الإمارات؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:حقيبة يد,destination_country:الإمارات,product_value:500"}}
+{"id": 13, "query": "ممكن احول 1500 درهم اماراتي الى ريال سعودي؟", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:1500,from_currency:AED,to_currency:SAR"}}
+{"id": 14, "query": "قارنت أسعار الجوالات وقررت آخذ سامسونج", "tool_called": "none", "arguments": {}}
+{"id": 15, "query": "أريد حجز موعد مع طبيب الأطفال في أبو ظبي يوم 15 أكتوبر", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:أبو ظبي,date:15 أكتوبر,specialty:طب الأطفال"}}
+{"id": 16, "query": "احجز لي موعدًا مع طبيب نسائية في الرياض الأسبوع القادم", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:الرياض,date:الأسبوع القادم,specialty:طبيب نسائية"}}
+{"id": 17, "query": "أريد البحث عن فنادق في القاهرة من 1 فبراير إلى 10 فبراير لشخصين", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-02-01,check_out:2023-02-10,city:القاهرة,guests:2"}}
+{"id": 18, "query": "يا ترى صلاحية إقامتي انتهت؟ رقمي ٤٤٥٥٦٦", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 445566}}
+{"id": 19, "query": "وش سعر الآيفون في الكويت؟", "tool_called": "compare_prices", "arguments": {"raw_values": "country:الكويت,product_name:iPhone"}}
+{"id": 20, "query": "عايز أعرف الجمارك على تابلت قيمته 8000 جنيه من الإمارات", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:تابلت,destination_country:الإمارات,product_value:8000"}}
+{"id": 21, "query": "عندكوا بنادول في الصيدلية؟", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:بنادول"}}
+{"id": 22, "query": "مبسوط إني حجزت الفندق من بدري", "tool_called": "none", "arguments": {}}
+{"id": 23, "query": "أنا عايز أحول ٢٠٠٠ ريال سعودي لأخويا محمد في الإمارات وده رقم الآيبان حقه AE070331234567891234567", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:2000,currency:SAR,recipient_iban:AE070331234567891234567,recipient_name:محمد"}}
+{"id": 24, "query": "حول كلمة 'كتاب' إلى الإنجليزية", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:en,text:كتاب"}}
+{"id": 25, "query": "أبي أعرف حالة الإقامة حق زوجتي. رقم الإقامة 2233445566", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 2233445566}}
+{"id": 26, "query": "أحتاج أحسب زكاة الذهب لقيمة 15000 ريال", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:15000,currency:ريال,type:gold"}}
+{"id": 27, "query": "وين بلقى فنادق منيحة ببيروت؟", "tool_called": "search_hotels", "arguments": {"raw_values": "city:بيروت"}}
+{"id": 28, "query": "أحتاج معرفة اتجاه القبلة في القاهرة.", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:القاهرة"}}
+{"id": 29, "query": "احسب لي تكلفة الجمارك على ساعة يد قيمتها 500 ريال في الإمارات", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:watches,destination_country:الإمارات,product_value:500"}}
+{"id": 30, "query": "اريد معرفة حالة الطقس في بيروت لأسبوع كامل.", "tool_called": "get_weather", "arguments": {"raw_values": "city:بيروت,days:7"}}
+{"id": 31, "query": "عايز أحسب زكاة التجارة عن ١٠٠٠٠ دولار", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:10000,currency:دولار,type:trade"}}
+{"id": 32, "query": "أبغي رحلة عمرة من الكويت لمدة اسبوع لخمسة أشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:الكويت,num_persons:5"}}
+{"id": 33, "query": "محتاج أعرف لو عندي مخالفات مرورية، الرقم القومي بتاعي 1122334455", "tool_called": "check_traffic_violations", "arguments": {"id_number": 1122334455}}
+{"id": 34, "query": "نريد نحجز موعد طبي مع طبيب قلب في العاصمة النهار السبت", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:العاصمة,date:السبت,specialty:قلب"}}
+{"id": 35, "query": "ممكن تخبرني عن حالة الجو في مسقط اليوم؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:مسقط"}}
+{"id": 36, "query": "أيش أحلى مدينة سياحية في العالم العربي؟", "tool_called": "none", "arguments": {}}
+{"id": 37, "query": "هل يمكنني مقارنة أسعار الحواسيب المحمولة في الأردن؟", "tool_called": "compare_prices", "arguments": {"raw_values": "country:الأردن,product_name:laptops"}}
+{"id": 38, "query": "كيف بتنحسب مكافأة نهاية الخدمة إذا راتبي 3000 وسنوات الخدمة 8 وسبب الفصل إنهاء عقد؟", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:3000,termination_type:end_of_contract,years_of_service:8"}}
+{"id": 39, "query": "كيف يمكنني تحويل ٣٠٠٠ درهم إماراتي إلى جنيه مصري؟", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:3000,from_currency:AED,to_currency:EGP"}}
+{"id": 40, "query": "أين اتجاه القبلة في القاهرة؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:القاهرة"}}
+{"id": 41, "query": "ممكن تترجم النص هذا للإسباني؟", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:es,text:النص هذا"}}
+{"id": 42, "query": "اطلب لنا غداء من مطعم مندي الحمراء، أبغى مندي دجاج ومشويات", "tool_called": "order_food", "arguments": {"raw_values": "items:مندي دجاج, مشويات,restaurant:مندي الحمراء"}}
+{"id": 43, "query": "أحتاج اتجاه القبلة في القاهرة.", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:القاهرة"}}
+{"id": 44, "query": "ترجملي هاي الرسالة للإسباني", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:es,text:هاي الرسالة"}}
+{"id": 45, "query": "ودي أعرف حالة الجو في المدينة المنورة لمدة أسبوع", "tool_called": "get_weather", "arguments": {"raw_values": "city:المدينة المنورة,days:7"}}
+{"id": 46, "query": "الله يبارك فيك", "tool_called": "none", "arguments": {}}
+{"id": 47, "query": "فين أقدر ألاقي برشام بانادول", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:بانادول"}}
+{"id": 48, "query": "أريد تحويل 1200 ريال سعودي إلى حساب أحمد في البنك الأهلي", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:1200,currency:SAR,recipient_name:Ahmed"}}
+{"id": 49, "query": "شو الخدمات اللي تقدر تساعدني فيها؟", "tool_called": "none", "arguments": {}}
+{"id": 50, "query": "شكرا على مساعدتك", "tool_called": "none", "arguments": {}}
+{"id": 51, "query": "هل توجد مخالفات مرورية على رقم الهوية 9988776655؟", "tool_called": "check_traffic_violations", "arguments": {"id_number": 9988776655}}
+{"id": 52, "query": "أبغى أعرف اتجاه القبلة في المنامة", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:المنامة"}}
+{"id": 53, "query": "دور على كلمة الرحمة في القرآن", "tool_called": "search_quran", "arguments": {"raw_values": "query:الرحمة"}}
+{"id": 54, "query": "أبي أحجز باقة عمرة من الرياض لسبعة أشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:الرياض,num_persons:7"}}
+{"id": 55, "query": "فرحان لأن مكافأة نهاية الخدمة طلعت كويسة", "tool_called": "none", "arguments": {}}
+{"id": 56, "query": "أشيك على المخالفات برقم الهوية ٤٤٥٥٦٦٧٧", "tool_called": "check_traffic_violations", "arguments": {"id_number": 44556677}}
+{"id": 57, "query": "ما هو الفرق بين الطقس والمناخ؟", "tool_called": "none", "arguments": {}}
+{"id": 58, "query": "لو سمحت، بدّي حوّل ٢٠٠٠ جنيه لحساب محمود بالبنك", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:2000,currency:EGP,recipient_name:محمود"}}
+{"id": 59, "query": "أريد تقرير عن جودة الهواء في دمشق", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:دمشق"}}
+{"id": 60, "query": "عايز أطلب أكل من مطعم كوك دور، والطلبات هي شيش طاووق وكوكاكولا", "tool_called": "order_food", "arguments": {"raw_values": "items:شيش طاووق وكوكاكولا,restaurant:كوك دور"}}
+{"id": 61, "query": "شلون اقول 'شكراً' بالإسباني؟", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:es,text:شكراً"}}
+{"id": 62, "query": "شو رأيك بالسيارات الكهربائية؟", "tool_called": "none", "arguments": {}}
+{"id": 63, "query": "ما مقدار مكافأة نهاية الخدمة لراتب ٧٠٠٠ ريال لمدة ٥ سنوات مع إنهاء عقد؟", "tool_called": "calculate_end_of_service", "arguments": {"salary": 7000, "years_of_service": 5}}
+{"id": 64, "query": "عندي استفسار عن حالة الفيزا الرقم 789010.", "tool_called": "check_visa_status", "arguments": {"visa_number": 789010}}
+{"id": 65, "query": "أحتاج تحويل 7500 درهم إماراتي إلى يورو.", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:7500,from_currency:AED,to_currency:EUR"}}
+{"id": 66, "query": "ممكن تحسبلي مكافأة نهاية الخدمة لراتب ٥٠٠٠ جنيه وسنة ١٠ سنين وإنهاء العقد كان بإرادة الموظف", "tool_called": "calculate_end_of_service", "arguments": {"salary": 5000, "years_of_service": 10}}
+{"id": 67, "query": "فاش حال تكون الفنادق في مراكش من 10 ل 15 نوفمبر؟", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-11-10,check_out:2023-11-15,city:مراكش"}}
+{"id": 68, "query": "هل يغطي التأمين رقم 456789 الجلسة العلاجية النفسية؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:456789,procedure:جلسة علاج نفسي"}}
+{"id": 69, "query": "كيف وضع جودة الهواء في الشارقة؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:الشارقة"}}
+{"id": 70, "query": "ما هي حالة الطقس في القاهرة لمدة ثلاثة أيام؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:القاهرة,days:3"}}
+{"id": 71, "query": "أبحث عن آية فيها كلمة الرحمة", "tool_called": "search_quran", "arguments": {"raw_values": "query:الرحمة"}}
+{"id": 72, "query": "كيفية حساب زكاة الذهب على 200 جرام؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:200,type:gold"}}
+{"id": 73, "query": "حاسب لي زكاة المال لو عندي 50000 جنيه", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:50000,currency:جنيه,type:cash"}}
+{"id": 74, "query": "ممكن تعرفني الفرق في الأسعار بين تليفزيون LG في مصر والسعودية؟", "tool_called": "compare_prices", "arguments": {"raw_values": "country:مصر والسعودية,product_name:تليفزيون LG"}}
+{"id": 75, "query": "بغي نحول ٢ مليون درهم لحساب خويا فطنجة، شنو هي الإجراءات؟", "tool_called": "transfer_money", "arguments": {"amount": 2000000}}
+{"id": 76, "query": "بدي أتأكد إذا التأمين بيغطي علاج الأسنان ورقمي 987654", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:987654,procedure:علاج الأسنان"}}
+{"id": 77, "query": "ترجم النص هذا إلى الإنجليزية: صباح الخير", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:en,text:صباح الخير"}}
+{"id": 78, "query": "أحتاج أحجز موعد عند دكتور أسنان في جدة يوم الخميس", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:جدة,date:يوم الخميس,specialty:أسنان"}}
+{"id": 79, "query": "عندك خدمة تتبع الشحنات؟", "tool_called": "none", "arguments": {}}
+{"id": 80, "query": "ابحث لي عن آية الكرسي في القرآن", "tool_called": "search_quran", "arguments": {"raw_values": "query:آية الكرسي"}}
+{"id": 81, "query": "ممكن أحجز مع دكتور قلب في المنصورة الأسبوع الجاي", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:المنصورة,date:next week,specialty:قلب"}}
+{"id": 82, "query": "هل توجد فنادق في الدوحة من ١ إلى ٥ نوفمبر لشخصين؟", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-11-01,check_out:2023-11-05,city:الدوحة,guests:2"}}
+{"id": 83, "query": "هل يمكنني معرفة صلاحية الإقامة برقم 654321؟", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 654321}}
+{"id": 84, "query": "تعبت من غلاء أسعار الأدوية", "tool_called": "none", "arguments": {}}
+{"id": 85, "query": "يقيني عطني اتجاه القبلة في مسقط", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:مسقط"}}
+{"id": 86, "query": "ما هي توقعات الطقس للأسبوع القادم في بيروت؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:بيروت,days:7"}}
+{"id": 87, "query": "ابي ابحث عن آية الكرسي في القرآن", "tool_called": "search_quran", "arguments": {"raw_values": "query:آية الكرسي"}}
+{"id": 88, "query": "ممكن تحددلي معاد مع دكتور عيون في الجيزة الأسبوع الجاي؟", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:الجيزة,date:next week,specialty:عيون"}}
+{"id": 89, "query": "شرح لي قاعدة نحوية", "tool_called": "none", "arguments": {}}
+{"id": 90, "query": "ما هي اتجاه القبلة في مكة؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:مكة"}}
+{"id": 91, "query": "ابحث لي عن دواء البنادول", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:البنادول"}}
+{"id": 92, "query": "هل يمكنني معرفة اتجاه القبلة في الرياض؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:الرياض"}}
+{"id": 93, "query": "كم سأحصل على مكافأة نهاية الخدمة لو كان راتبي ٣٠٠٠ ريال وخدمتي ٥ سنوات وطردت؟", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:3000,termination_type:dismissal,years_of_service:5"}}
+{"id": 94, "query": "أبحث عن فندق في بيروت بين ٣٠ نوفمبر و ٥ ديسمبر.", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-11-30,check_out:2023-12-05,city:بيروت"}}
+{"id": 95, "query": "ابحث في القرآن عن آية تتحدث عن الأمانة", "tool_called": "search_quran", "arguments": {"raw_values": "query:الأمانة"}}
+{"id": 96, "query": "كم جمرك الساعة قيمتها 1000 ريال في الكويت؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:ساعة,destination_country:الكويت,product_value:1000"}}
+{"id": 97, "query": "ابي أبحث عن دواء الاسبرين في صيدليات البحرين", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:الاسبرين"}}
+{"id": 98, "query": "أريد تحويل ٣٠٠٠٠ جنيه مصري إلى دولار أمريكي.", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:30000,from_currency:EGP,to_currency:USD"}}
+{"id": 99, "query": "تحقق من تغطية تأميني لعملية التجميل برقم 654321.", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:654321,procedure:عملية التجميل"}}
+{"id": 100, "query": "ابحث في القرآن عن آية تتحدث عن الصدق", "tool_called": "search_quran", "arguments": {"raw_values": "query:الصدق"}}
+{"id": 101, "query": "شيك لي على حالة إقامة رقم ٤٥٦٧٨٩١٢٣٠", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 4567891230}}
+{"id": 102, "query": "تحويل ٣٠٠٠ ريال سعودي إلى دولار أمريكي", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:3000,from_currency:SAR,to_currency:USD"}}
+{"id": 103, "query": "ابي اطلب برجر من مطعم تكساس وحط لي بطاطس وبيبسي", "tool_called": "order_food", "arguments": {"raw_values": "items:برجر, بطاطس, بيبسي,restaurant:تكساس"}}
+{"id": 104, "query": "ما ترجمة 'شكراً' إلى الفرنسية؟", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:fr,text:شكراً"}}
+{"id": 105, "query": "ودي اعرف حالة تأشيرة زوجتي، رقم التأشيرة 321654987", "tool_called": "check_visa_status", "arguments": {"visa_number": 321654987}}
+{"id": 106, "query": "فين اتجاه القبلة في المنصورة؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:المنصورة"}}
+{"id": 107, "query": "الجو في البحرين الاسبوع الجاي؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:البحرين,days:7"}}
+{"id": 108, "query": "شنو جودة الهواء في مسقط الحين؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:مسقط"}}
+{"id": 109, "query": "كم باقي على صلاحية إقامتي ورقمها ٢٣٤٥٦٧٨٩٠", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 234567890}}
+{"id": 110, "query": "أود طلب طعام من مطعم البيتزا: ٢ بيتزا مارغريتا، وكولا", "tool_called": "order_food", "arguments": {"raw_values": "items:٢ بيتزا مارغريتا، وكولا,restaurant:مطعم البيتزا"}}
+{"id": 111, "query": "ابي اطلب من مطعم الفخامة، ابغى كبسة ودجاج مشوي", "tool_called": "order_food", "arguments": {"raw_values": "items:كبسة, دجاج مشوي,restaurant:الفخامة"}}
+{"id": 112, "query": "ما هو طقس دمشق اليوم؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:دمشق"}}
+{"id": 113, "query": "ترجم لي هاد الجملة لانجليزية: أنا أحب القهوة", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:en,text:أنا أحب القهوة"}}
+{"id": 114, "query": "ابحث في القرآن عن آية تتحدث عن الصدقة", "tool_called": "search_quran", "arguments": {"raw_values": "query:الصدقة"}}
+{"id": 115, "query": "هل تقدر تساعدني في حجز طيران؟", "tool_called": "none", "arguments": {}}
+{"id": 116, "query": "عايز أطلب سوشي وماء من مطعم سوشي يا", "tool_called": "order_food", "arguments": {"raw_values": "items:سوشي, ماء,restaurant:سوشي يا"}}
+{"id": 117, "query": "ابي احسب مكافأة نهاية الخدمة براتب ٢٠٠٠٠ ريال وبعد خدمة ١٠ سنوات واستقالة", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:20000,termination_type:resignation,years_of_service:10"}}
+{"id": 118, "query": "عايز اعرف إذا التأمين بتاعي بيغطي عملية المرارة، رقم التأمين 123456", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:123456,procedure:عملية المرارة"}}
+{"id": 119, "query": "أريد معرفة جودة الهواء في جدة الآن", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:جدة"}}
+{"id": 120, "query": "اتجاه القبلة ببيروت لو سمحت", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:بيروت"}}
+{"id": 121, "query": "أريد التحقق من صلاحية إقامتي، رقم الإقامة ٩٨٧٦٥٤", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 987654}}
+{"id": 122, "query": "أبي أحجز موعد مع دكتور عيون في الرياض بعد باجر", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:الرياض,date:بعد باجر,specialty:عيون"}}
+{"id": 123, "query": "جودة الهواء في دمنهور كويسة؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:دمنهور"}}
+{"id": 124, "query": "بدي أحوّل 500 دولار ليرة سورية", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:500,from_currency:USD,to_currency:SYP"}}
+{"id": 125, "query": "شو أرخص طريقة لتحويل العملات؟", "tool_called": "none", "arguments": {}}
+{"id": 126, "query": "كيفاش نعرف حالة التأشيرة ديالي برك؟ رقمي هو 123456", "tool_called": "check_visa_status", "arguments": {"visa_number": 123456}}
+{"id": 127, "query": "كم جمرك على حقيبة نسائية سعرها ٣٠٠ ريال في السعودية؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:حقائب نسائية,destination_country:السعودية,product_value:300"}}
+{"id": 128, "query": "أخبرني عن جودة الهواء في الرباط.", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:الرباط"}}
+{"id": 129, "query": "أود معرفة حالة الإقامة رقم 7891011", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 7891011}}
+{"id": 130, "query": "أحتاج لتحويل 200 يورو إلى حساب محمد أحمد في بنك القاهرة، رقم حساب IBAN هو EG21000020000007300018", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:200,currency:EUR,recipient_iban:EG21000020000007300018,recipient_name:محمد أحمد"}}
+{"id": 131, "query": "دور لي على آية تتكلم عن الرحمة في القرآن", "tool_called": "search_quran", "arguments": {"raw_values": "query:الرحمة"}}
+{"id": 132, "query": "ازاي احسب زكاة المال لو عندي 50000 جنيه مصري", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:50000,currency:EGP,type:cash"}}
+{"id": 133, "query": "كم قيمة زكاة الذهب اذا كان عندي 100 غرام؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:100,type:gold"}}
+{"id": 134, "query": "نطلب بيتزا من دومينوز عليها جبنة زيادة", "tool_called": "order_food", "arguments": {"raw_values": "items:بيتزا بالجبنة زيادة,restaurant:دومينوز"}}
+{"id": 135, "query": "ممكن تفسير آية الكرسي؟", "tool_called": "search_quran", "arguments": {"raw_values": "query:آية الكرسي,search_type:tafseer"}}
+{"id": 136, "query": "ما هي جودة الهواء في القاهرة اليوم؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:القاهرة"}}
+{"id": 137, "query": "أود طلب وجبة غداء من مطعم الزيتون، أضف كبسة و سلطة", "tool_called": "order_food", "arguments": {"raw_values": "items:كبسة, سلطة,restaurant:الزيتون"}}
+{"id": 138, "query": "أبغي أحوّل ٥٠٠ دينار بحريني إلى ريال سعودي", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:500,from_currency:BHD,to_currency:SAR"}}
+{"id": 139, "query": "عايز أحول ٢٠٠٠ يورو لماريا في اسبانيا رقم الحساب ES9121000418450200051332", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:2000,currency:EUR,recipient_iban:ES9121000418450200051332,recipient_name:Maria"}}
+{"id": 140, "query": "الطقس اليوم كان حلو وايد، استمتعت", "tool_called": "none", "arguments": {}}
+{"id": 141, "query": "ازاي أحسب مكافأة نهاية الخدمة لو مرتبي ٥٠٠٠ جنيه واشتغلت ١٠ سنين وتم الاستغناء عني؟", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:5000,termination_type:economic,years_of_service:10"}}
+{"id": 142, "query": "أبحث عن فندق في مسقط لشخصين من ١٠ ديسمبر إلى ١٥ ديسمبر", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-12-10,check_out:2023-12-15,city:مسقط,guests:2"}}
+{"id": 143, "query": "أعرف كام جنية مصري هياخدوا نص مليون دولار؟", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:500000,from_currency:USD,to_currency:EGP"}}
+{"id": 144, "query": "أحتاج لمعرفة حالة الطقس في عمان لثلاثة أيام قادمة.", "tool_called": "get_weather", "arguments": {"raw_values": "city:عمان,days:3"}}
+{"id": 145, "query": "عايز أعرف حالة الإقامة بتاعتي، رقم الإقامة 456789", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 456789}}
+{"id": 146, "query": "شنو الاتجاه الصحيح للقبلة في أبوظبي؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:أبوظبي"}}
+{"id": 147, "query": "كم تبلغ زكاة الزروع لمبلغ 10000 ريال؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:10000,currency:ريال,type:crops"}}
+{"id": 148, "query": "أحتاج لتحديث حالة الطقس في بيروت للأسبوع القادم.", "tool_called": "get_weather", "arguments": {"raw_values": "city:بيروت,days:7"}}
+{"id": 149, "query": "أريد تحويل ٥٠٠٠ درهم إلى حساب أحمد في الإمارات", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:5000,currency:درهم,recipient_name:أحمد"}}
+{"id": 150, "query": "أرغب في تحويل 500 دينار كويتي لحساب فاطمة حسين برقم IBAN KW81CBKU0000000000001234560101", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:500,currency:KWD,recipient_iban:KW81CBKU0000000000001234560101,recipient_name:Fatima Hussein"}}
+{"id": 151, "query": "ممكن ترجم لي الجملة دي للإنجليزية: أنا بحب الكشري", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:en,text:أنا بحب الكشري"}}
+{"id": 152, "query": "كم الجمارك على لابتوب سعره ٥٠٠ دولار في السعودية؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:لابتوب,destination_country:السعودية,product_value:500"}}
+{"id": 153, "query": "بغيت أطلب من مطعم النخيل دجاج مشوي وشوربة عدس", "tool_called": "order_food", "arguments": {"raw_values": "items:دجاج مشوي, شوربة عدس,restaurant:النخيل"}}
+{"id": 154, "query": "أحتاج لتحويل 500 جنيه مصري إلى دولار كندي.", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:500,from_currency:EGP,to_currency:CAD"}}
+{"id": 155, "query": "كم الجمارك على جهاز قيمته 1200 ريال، فئة إلكترونيات، في السعودية؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:إلكترونيات,destination_country:السعودية,product_value:1200"}}
+{"id": 156, "query": "شو أفضل الفنادق ببيروت من ٣ ل٧ نوفمبر؟", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-11-03,check_out:2023-11-07,city:بيروت"}}
+{"id": 157, "query": "دور لي على سورة الرحمن في القرآن", "tool_called": "search_quran", "arguments": {"raw_values": "query:سورة الرحمن"}}
+{"id": 158, "query": "الطقس في مسقط بعد ثلاث أيام شلون؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:مسقط,days:3"}}
+{"id": 159, "query": "رقم التأمين 11223344، يغطي جراحة العيون؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:11223344,procedure:جراحة العيون"}}
+{"id": 160, "query": "أريد معرفة جودة الهواء في جدة.", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:جدة"}}
+{"id": 161, "query": "ترجملي هاي الجملة للعربي الفصيح", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:ar,text:هاي الجملة"}}
+{"id": 162, "query": "هل عندك كريم فيوسيدين؟", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:فيوسيدين"}}
+{"id": 163, "query": "ابي استفسر عن حالة الفيزا، رقمي 9876543210", "tool_called": "check_visa_status", "arguments": {"visa_number": 9876543210}}
+{"id": 164, "query": "كيف أحسب مكافأة نهاية الخدمة إذا كان راتبي ٥٠٠٠ ريال وعملت لمدة ٧ سنوات واستقالت؟", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:5000,termination_type:resignation,years_of_service:7"}}
+{"id": 165, "query": "كم تكون مكافأة نهاية الخدمة إذا راتبي 5000 ريال وخدمت 10 سنوات؟", "tool_called": "calculate_end_of_service", "arguments": {"salary": 5000, "years_of_service": 10}}
+{"id": 166, "query": "ما مدى تغطية التأمين للعمليات الجراحية؟ رقم التأمين هو 789101", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:789101,procedure:العمليات الجراحية"}}
+{"id": 167, "query": "أرسلت 200 دينار بحريني إلى محمد أحمد في حساب IBAN BH67BH00000001234567890", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:200,currency:BHD,recipient_iban:BH67BH00000001234567890,recipient_name:محمد أحمد"}}
+{"id": 168, "query": "عايز أحول ١٠٠٠ ريال سعودي لعلي في بنك مصر", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:1000,currency:SAR,recipient_name:علي"}}
+{"id": 169, "query": "هل يغطي التأمين عملية القلب برقم تأميني 123456؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:123456,procedure:عملية القلب"}}
+{"id": 170, "query": "أحتاج إلى استشارة مع طبيب أمراض جلدية في مكة يوم الأربعاء.", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:مكة,date:2023-10-11,specialty:طبيب أمراض جلدية"}}
+{"id": 171, "query": "وين بلاقي ذكر الصبر بالقرآن؟", "tool_called": "search_quran", "arguments": {"raw_values": "query:الصبر"}}
+{"id": 172, "query": "أريد مقارنة أسعار الهواتف بين المتاجر", "tool_called": "compare_prices", "arguments": {"raw_values": "category:هواتف,product_name:هواتف"}}
+{"id": 173, "query": "ما هي الفنادق المتاحة في بيروت من ١٠ إلى ٢٠ يناير لثلاثة أشخاص؟", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-01-10,check_out:2023-01-20,city:بيروت,guests:3"}}
+{"id": 174, "query": "أبي أعرف حالة التأشيرة حقي، رقمها ١٢٣٤٥٦", "tool_called": "check_visa_status", "arguments": {"visa_number": 123456}}
+{"id": 175, "query": "ممكن أعرف المخالفات المرورية على رقم البطاقة ٤٥٦٧٨٩٠١٢٣٤", "tool_called": "check_traffic_violations", "arguments": {"id_number": 45678901234}}
+{"id": 176, "query": "هل الدراسة في الخارج تستاهل؟", "tool_called": "none", "arguments": {}}
+{"id": 177, "query": "حاسبلي مكافأة نهاية الخدمة، راتبي 3000 ليرة وسنوات عملي 5 ونوع الإنهاء استقالة", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:3000,termination_type:resignation,years_of_service:5"}}
+{"id": 178, "query": "فيه فنادق كويسة في أبوظبي من 5 ديسمبر الى 10 ديسمبر لشخص واحد؟", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:05-12-2023,check_out:10-12-2023,city:أبوظبي,guests:1"}}
+{"id": 179, "query": "كم الجمارك على جهاز كمبيوتر محمول بقيمة 2000 دولار في السعودية؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:كمبيوتر محمول,destination_country:السعودية,product_value:2000"}}
+{"id": 180, "query": "ودي احجز موعد مع دكتور أنف وأذن وحنجرة في المنامة.", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:المنامة,specialty:دكتور أنف وأذن وحنجرة"}}
+{"id": 181, "query": "أريد التأكد من تغطية التأمين لعملية العلاج الطبيعي ورقمي التأميني هو 11223344", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:11223344,procedure:العلاج الطبيعي"}}
+{"id": 182, "query": "أبي أعرف جودة الهواء في الكويت اليوم", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:الكويت"}}
+{"id": 183, "query": "إيه الجمارك على آلة تصوير قيمتها ٨٠٠ دولار وصنفها إلكترونيات في الإمارات", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:إلكترونيات,destination_country:الإمارات,product_value:800"}}
+{"id": 184, "query": "قديش نسبة تلوث الهواء بطرابلس؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:طرابلس"}}
+{"id": 185, "query": "أبي أعرف حالة التأشيرة لرقم التأشيرة 123456789", "tool_called": "check_visa_status", "arguments": {"visa_number": 123456789}}
+{"id": 186, "query": "دور على آية فيها كلمة الصبر", "tool_called": "search_quran", "arguments": {"raw_values": "query:الصبر"}}
+{"id": 187, "query": "كيف الجو في جدة هاليومين؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:جدة,days:2"}}
+{"id": 188, "query": "ودي أحسب مكافأة نهاية الخدمة، راتبي 6000 وعندي 10 سنوات، وتم طردي بسبب سوء سلوك", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:6000,termination_type:disciplinary,years_of_service:10"}}
+{"id": 189, "query": "كم تبلغ الجمارك على جهاز كمبيوتر محمول قيمته 5000 ريال في السعودية؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:كمبيوتر محمول,destination_country:السعودية,product_value:5000"}}
+{"id": 190, "query": "التأمين بتاعي يغطي عملية زراعة الكبد؟ رقمي هو 123456789", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:123456789,procedure:زراعة الكبد"}}
+{"id": 191, "query": "هل توجد مخالفات مرورية على رقم الهوية 5566778899؟", "tool_called": "check_traffic_violations", "arguments": {"id_number": 5566778899}}
+{"id": 192, "query": "أخبرني عن جودة الهواء في الكويت الآن", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:الكويت"}}
+{"id": 193, "query": "نحتاج نعرف واش نلقى دواء الأموكسيسيلين؟", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:الأموكسيسيلين"}}
+{"id": 194, "query": "كيف أتعلم الطبخ؟", "tool_called": "none", "arguments": {}}
+{"id": 195, "query": "أريد التحقق من حالة تأشيرتي، الرقم هو 1234567890", "tool_called": "check_visa_status", "arguments": {"visa_number": 1234567890}}
+{"id": 196, "query": "في عندي مخالفات مرورية على الهوية 445566؟", "tool_called": "check_traffic_violations", "arguments": {"id_number": 445566}}
+{"id": 197, "query": "فين جات القبلة فمراكش؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:مراكش"}}
+{"id": 198, "query": "شو جودة الهواء بعمّان؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:عمّان"}}
+{"id": 199, "query": "قديش درجة الحرارة بحلب اليوم؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:حلب"}}
+{"id": 200, "query": "شو هي أكبر دولة عربية مساحة؟", "tool_called": "none", "arguments": {}}
+{"id": 201, "query": "بدور على دواء البندول، تعرف فين ألاقيه؟", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:البندول"}}
+{"id": 202, "query": "كيف أحسب زكاة المال إذا عندي ٥٠٠٠ دولار؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:5000,currency:USD"}}
+{"id": 203, "query": "كم يكلف الجمرك لو جبت ملابس بقيمة ٣٠٠٠ ريال للسعودية؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:ملابس,product_value:3000"}}
+{"id": 204, "query": "أبي أعرف إذا التأمين يغطي عملية التجميل برقم 654321.", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:654321,procedure:عملية التجميل"}}
+{"id": 205, "query": "لقلي آية فيها كلمة 'الصبر'", "tool_called": "search_quran", "arguments": {"raw_values": "query:الصبر"}}
+{"id": 206, "query": "احسب لي جمارك جهاز اللابتوب قيمته 2500 ريال سعودي", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:جهاز لابتوب,product_value:2500"}}
+{"id": 207, "query": "عايز أنظم عمرة لخمسة أفراد من الإسكندرية", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:الإسكندرية,num_persons:5"}}
+{"id": 208, "query": "ما هي لغة البرازيل الرسمية؟", "tool_called": "none", "arguments": {}}
+{"id": 209, "query": "التأشيرة بتاعتي شغالة ولا لأ؟ رقمها ٧٨٩٠١٢", "tool_called": "check_visa_status", "arguments": {"visa_number": 789012}}
+{"id": 210, "query": "بدنا نعمل عمرة من بيروت لثلاثة أشخاص، شو في باقات عمرة؟", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:بيروت,num_persons:3"}}
+{"id": 211, "query": "قارن أسعار آيفون ١٣ في مصر", "tool_called": "compare_prices", "arguments": {"raw_values": "country:مصر,product_name:آيفون ١٣"}}
+{"id": 212, "query": "كم قيمة زكاتي اذا عندي ٥٠٠٠ ريال", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:5000,currency:ريال,type:cash"}}
+{"id": 213, "query": "افحص المخالفات المرورية لرقم الهوية ١١٣٣٥٥٧٧٩٩", "tool_called": "check_traffic_violations", "arguments": {"id_number": 1133557799}}
+{"id": 214, "query": "أنا بخير الحمد لله، وأنت؟", "tool_called": "none", "arguments": {}}
+{"id": 215, "query": "شو في مخالفات مرورية على الرقم الوطني 888999000؟", "tool_called": "check_traffic_violations", "arguments": {"id_number": 888999000}}
+{"id": 216, "query": "ابي احول مية دولار لحسين في عمان، شنو بيانات الايبان؟", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:100,currency:USD,recipient_name:حسين"}}
+{"id": 217, "query": "إزاي أحسب زكاة المال لو عندي 5000 جنيه مصري؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:5000,currency:EGP,type:cash"}}
+{"id": 218, "query": "كيف أسعار آيفون ببيروت؟", "tool_called": "compare_prices", "arguments": {"raw_values": "country:لبنان,product_name:آيفون"}}
+{"id": 219, "query": "أبي فندق في الدوحة من يوم ٧ إلى يوم ١٠ نوفمبر لثلاثة أشخاص", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-11-07,check_out:2023-11-10,city:الدوحة,guests:3"}}
+{"id": 220, "query": "أحتاج حجز موعد مع طبيب أمراض جلدية في مدينة الكويت دون تحديد تاريخ", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:مدينة الكويت,specialty:أمراض جلدية"}}
+{"id": 221, "query": "هل يغطي التأمين رقم 123456 عملية الولادة؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:123456,procedure:الولادة"}}
+{"id": 222, "query": "كم هي تكلفة الجمارك لجهاز لابتوب قيمته 2000 دولار في السعودية؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:لابتوب,destination_country:السعودية,product_value:2000"}}
+{"id": 223, "query": "ما هي مكافأة نهاية الخدمة لموظف براتب 8000 ريال ومدة الخدمة 10 سنوات؟", "tool_called": "calculate_end_of_service", "arguments": {"salary": 8000, "years_of_service": 10}}
+{"id": 224, "query": "بكم الجمارك على شنطة سفر قيمتها 300 دينار بحريني؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "currency:BHD,product_value:300"}}
+{"id": 225, "query": "ما هو سعر هاتف سامسونج في الكويت؟", "tool_called": "compare_prices", "arguments": {"raw_values": "country:الكويت,product_name:هاتف سامسونج"}}
+{"id": 226, "query": "دور لي في القرآن عن الصبر", "tool_called": "search_quran", "arguments": {"raw_values": "query:الصبر"}}
+{"id": 227, "query": "هل جودة الهواء زينة اليوم في المنامة؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:المنامة"}}
+{"id": 228, "query": "ما هي الأدوية المتوفرة لعلاج السكري؟", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:السكري"}}
+{"id": 229, "query": "ممكن تدور لي على دواء بنادول؟", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:بنادول"}}
+{"id": 230, "query": "أحتاج لمعرفة توفر دواء الأنسولين في الرياض.", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:الأنسولين"}}
+{"id": 231, "query": "ممكن تحولي ٥٠٠ دولار لاسماء في حسابها بالبنك؟ رقم الآيبان بتاعها هو EG1234567890123456789012345", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:500,currency:USD,recipient_iban:EG1234567890123456789012345,recipient_name:اسماء"}}
+{"id": 232, "query": "إيه هي حالة الجو في المنصورة النهارده وبكرا؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:المنصورة,days:2"}}
+{"id": 233, "query": "وش وضع التأشيرة برقم ١٢٣٤٥؟", "tool_called": "check_visa_status", "arguments": {"visa_number": 12345}}
+{"id": 234, "query": "أود تحويل 150 يورو إلى الجنيه المصري.", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:150,from_currency:EUR,to_currency:EGP"}}
+{"id": 235, "query": "إحنا خمسة وعايزين نعمل عمرة، ممكن تشوفلنا باقة من القاهرة؟", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:القاهرة,num_persons:5"}}
+{"id": 236, "query": "ممكن أبحث عن دواء البروفين؟", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:البروفين"}}
+{"id": 237, "query": "دورلي على باقات العمرة من جدة لثلاثة أشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:جدة,num_persons:3"}}
+{"id": 238, "query": "تأميني يغطي عملية الليزك؟ رقمي هو ١٢٣٤٥٦", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:123456,procedure:ليزك"}}
+{"id": 239, "query": "بدّي شي موعد عند دكتور جهاز هضمي في حلب الأسبوع الجاي", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:حلب,date:الأسبوع الجاي,specialty:جهاز هضمي"}}
+{"id": 240, "query": "ممكن أعرف مكافأة نهاية الخدمة لو راتبي ٣٠٠٠ لمدة ٥ سنين بسبب الفصل؟", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:3000,termination_type:dismissal,years_of_service:5"}}
+{"id": 241, "query": "بدي اعرف اذا التأمين تبعي بيغطي عملية القلب، رقم التأمين 123456", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:123456,procedure:عملية القلب"}}
+{"id": 242, "query": "أبغا أعرف أرخص سعر لسوني بلايستيشن ٥ بالكويت", "tool_called": "compare_prices", "arguments": {"raw_values": "country:الكويت,product_name:Sony PlayStation 5"}}
+{"id": 243, "query": "أريد حساب مكافأة نهاية الخدمة لراتب 7000 جنيه ومدة خدمة 5 سنين، النوع إنهاء عقد", "tool_called": "calculate_end_of_service", "arguments": {"salary": 7000, "years_of_service": 5}}
+{"id": 244, "query": "ما هي صلاحية إقامتي؟ الرقم ٢٣٤٥٦٧٨٩", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 23456789}}
+{"id": 245, "query": "ترجم لي هالعبارة: الطقس اليوم حار", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:en,text:الطقس اليوم حار"}}
+{"id": 246, "query": "طلبت شحنة وجاي من أمريكا، كيف أحسب الجمارك عليها وقيمتها 300 دولار؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:شحنة,destination_country:أمريكا,product_value:300"}}
+{"id": 247, "query": "كم مقدار الزكاة على 10000 ريال سعودي؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:10000,currency:SAR,type:cash"}}
+{"id": 248, "query": "ايه وضع جودة الهواء في المنصورة؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:المنصورة"}}
+{"id": 249, "query": "أحتاج دواء للرشح في الكويت", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:دواء الرشح"}}
+{"id": 250, "query": "عايز أحجز فندق في الإسكندرية من ١٠ ل ٢٠ نوفمبر لو سمحت", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:١٠ نوفمبر,check_out:٢٠ نوفمبر,city:الإسكندرية"}}
+{"id": 251, "query": "أبغى حجز في فندق في دبي من 15 نوفمبر إلى 20 نوفمبر لأربعة أشخاص", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-11-15,check_out:2023-11-20,city:دبي,guests:4"}}
+{"id": 252, "query": "أحتاج لمعرفة مخالفاتي المرورية الحالية، رقم الهوية هو ٦٧٨٩٠١٢٣٤٥", "tool_called": "check_traffic_violations", "arguments": {"id_number": 6789012345}}
+{"id": 253, "query": "بدور على باقات عمرة من دمشق لأربع اشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:دمشق,num_persons:4"}}
+{"id": 254, "query": "من فضلك ترجم عبارة أهلا بك في منزلي إلى الإسبانية", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:es,text:أهلا بك في منزلي"}}
+{"id": 255, "query": "أبي أشوف لو عندكم دواء أوميغا 3", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:أوميغا 3"}}
+{"id": 256, "query": "فين اتجاه القبلة في طنجة؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:طنجة"}}
+{"id": 257, "query": "ابحث لي في القرآن عن آية تتحدث عن الصبر", "tool_called": "search_quran", "arguments": {"raw_values": "query:الصبر,search_type:verse"}}
+{"id": 258, "query": "أريد معرفة المخالفات المرورية على رقم الهوية 987654.", "tool_called": "check_traffic_violations", "arguments": {"id_number": 987654}}
+{"id": 259, "query": "عايز اعرف صلاحية الإقامة بتاعتي. رقم الإقامة هو 33445566", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 33445566}}
+{"id": 260, "query": "أحتاج إلى موعد مع طبيب قلب في الرياض يوم الجمعة.", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:الرياض,date:Friday,specialty:قلب"}}
+{"id": 261, "query": "أريد حجز موعد لزيارة طبيب عيون في القاهرة بعد غد", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:القاهرة,date:the day after tomorrow,specialty:عيون"}}
+{"id": 262, "query": "بغيت أعرف سعر جوال iPhone 13 في الكويت", "tool_called": "compare_prices", "arguments": {"raw_values": "country:الكويت,product_name:iPhone 13"}}
+{"id": 263, "query": "ممكن تحجز لي موعد عند دكتور قلب في الإسكندرية بكرة؟", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:الإسكندرية,date:بكرة,specialty:قلب"}}
+{"id": 264, "query": "بغيت أقارن أسعار البلايستيشن في الإمارات", "tool_called": "compare_prices", "arguments": {"raw_values": "country:الإمارات,product_name:بلايستيشن"}}
+{"id": 265, "query": "كيفاش نحول 75 دينار تونسي للدولار؟", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:75,from_currency:TND,to_currency:USD"}}
+{"id": 266, "query": "هل يمكن العثور على تفسير آية 'الرحمن علم القرآن'؟", "tool_called": "search_quran", "arguments": {"raw_values": "query:الرحمن علم القرآن,search_type:tafseer"}}
+{"id": 267, "query": "فين نقدر نلقا فندق مزيان فطنجة نهار 15 حتى 20 أكتوبر؟", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-10-15,check_out:2023-10-20,city:طنجة"}}
+{"id": 268, "query": "بغيت نحول ٣٠٠٠٠ درهم مغربية لصديقي ففرنسا", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:30000,currency:MAD,recipient_name:my friend"}}
+{"id": 269, "query": "محتاج أعرف المخالفات المرورية لرقم البطاقة ٢٢٣٤٥٦٧٨٩", "tool_called": "check_traffic_violations", "arguments": {"id_number": 223456789}}
+{"id": 270, "query": "شنو كاين اليوم فالجو في صفاقس؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:صفاقس"}}
+{"id": 271, "query": "ترجم كيف حالك إلى الفرنسية", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:fr,text:كيف حالك"}}
+{"id": 272, "query": "أبغى أقارن أسعار آيفون ١٣ في الكويت والإمارات", "tool_called": "compare_prices", "arguments": {"raw_values": "country:الكويت والإمارات,product_name:آيفون ١٣"}}
+{"id": 273, "query": "إمتى حالة التأشيرة بتاعتي برقم ٥٦٧٨٩٠٢٣٤٥٦?", "tool_called": "check_visa_status", "arguments": {"visa_number": 56789023456}}
+{"id": 274, "query": "أود حجز موعد عند طبيب أسنان في الرياض", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:الرياض,specialty:طبيب أسنان"}}
+{"id": 275, "query": "بغيت أحول 500 ريال من الريال السعودي إلى الدولار الأمريكي", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:500,from_currency:SAR,to_currency:USD"}}
+{"id": 276, "query": "عايز أعرف الدكاترة المتخصصين في النساء والتوليد في الجيزة.", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:الجيزة,specialty:نساء وتوليد"}}
+{"id": 277, "query": "بغيت نحول ٢٠٠ دولار للأورو، شحال يعطيني؟", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:200,from_currency:USD,to_currency:EUR"}}
+{"id": 278, "query": "كيف الجو في البحرين الأسبوع الجاي؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:البحرين,days:7"}}
+{"id": 279, "query": "بدي أقارن أسعار موبايلات بسوريا ولبنان", "tool_called": "compare_prices", "arguments": {"raw_values": "country:سوريا ولبنان,product_name:موبايل"}}
+{"id": 280, "query": "شو في فنادق بدمشق من 5 ديسمبر ل10 ديسمبر؟", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:05-12,check_out:10-12,city:دمشق"}}
+{"id": 281, "query": "كم سورة في القرآن الكريم؟", "tool_called": "none", "arguments": {}}
+{"id": 282, "query": "هل يمكنني معرفة تغطية التأمين لرقم 1122334455 لعلاج الأورام؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:1122334455,procedure:علاج الأورام"}}
+{"id": 283, "query": "شنو حالة الطقس في مسقط بكرة؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:مسقط,days:1"}}
+{"id": 284, "query": "ما هو اتجاه القبلة في مدينة عمان؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:عمان"}}
+{"id": 285, "query": "أترجم 'أحبك' إلى الإنجليزية", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:en,text:أحبك"}}
+{"id": 286, "query": "بدي أطلب من مطعم اللقمة: مناقيش زعتر، كباب حلبي وورق عنب", "tool_called": "order_food", "arguments": {"raw_values": "items:مناقيش زعتر, كباب حلبي, ورق عنب,restaurant:مطعم اللقمة"}}
+{"id": 287, "query": "ما اتجاه القبلة في المدينة المنورة؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:المدينة المنورة"}}
+{"id": 288, "query": "هل تغطي شركة التأمين إجراء عملية القلب؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "procedure:عملية القلب"}}
+{"id": 289, "query": "ابغي احول ١٠٠٠ درهم إلى حساب محمد في بنك HSBC، رقم الايبان AE070331234567890123456", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:1000,currency:AED,recipient_iban:AE070331234567890123456,recipient_name:Mohammed"}}
+{"id": 290, "query": "بدي أحول ١٠٠ دينار أردني لدولار", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:100,from_currency:JOD,to_currency:دولار"}}
+{"id": 291, "query": "ترجم عبارة 'أنا أحب تعلم اللغات' إلى الفرنسية", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:fr,text:أنا أحب تعلم اللغات"}}
+{"id": 292, "query": "أريد طلب بيتزا وباستا من مطعم بيتزا هت.", "tool_called": "order_food", "arguments": {"raw_values": "items:بيتزا, باستا,restaurant:بيتزا هت"}}
+{"id": 293, "query": "هل لدي مخالفات مرورية؟ رقم الهوية 1122334455", "tool_called": "check_traffic_violations", "arguments": {"id_number": 1122334455}}
+{"id": 294, "query": "أبي أشوف فنادق متاحة في أبوظبي من تاريخ ١ نوفمبر لين ٥ نوفمبر لشخصين", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:1 نوفمبر,check_out:5 نوفمبر,city:أبوظبي,guests:2"}}
+{"id": 295, "query": "أبي أعرف إذا تأميني رقم 1122334 يغطي عملية التجميل", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:1122334,procedure:التجميل"}}
+{"id": 296, "query": "شو أسعار تلفزيون LG بدمشق؟", "tool_called": "compare_prices", "arguments": {"raw_values": "country:سوريا,product_name:LG TV"}}
+{"id": 297, "query": "في باقات عمرة متوفرة من الإسكندرية لأربع أشخاص؟", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:الإسكندرية,num_persons:4"}}
+{"id": 298, "query": "كيف الجو في بيروت اليوم؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:بيروت,days:1"}}
+{"id": 299, "query": "إطلبلي أكل من كنتاكي: وجبة سبايسي واثنين بيبسي", "tool_called": "order_food", "arguments": {"raw_values": "items:وجبة سبايسي, اثنين بيبسي,restaurant:كنتاكي"}}
+{"id": 300, "query": "ما هي نصيحتك لشخص يبدأ تعلم البرمجة؟", "tool_called": "none", "arguments": {}}
+{"id": 301, "query": "أبحث عن دواء أوجمنتين في المدينة المنورة", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:أوجمنتين"}}
+{"id": 302, "query": "كيف يمكنني التأكد من صلاحية إقامتي باستخدام الرقم 1234567890؟", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 1234567890}}
+{"id": 303, "query": "في مخالفات على الرقم القومي ١٤٨٣٧٢؟", "tool_called": "check_traffic_violations", "arguments": {"id_number": 148372}}
+{"id": 304, "query": "كيف اتجه للقبلة من بيروت؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:بيروت"}}
+{"id": 305, "query": "محتاج أعرف إذا كان التأمين بتاعي بيغطي الكشف عند دكتور الأسنان", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "procedure:كشف الأسنان"}}
+{"id": 306, "query": "أريد حساب زكاة الفطر عن 4 أشخاص بالدينار.", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:4,currency:دينار,type:fitr"}}
+{"id": 307, "query": "ترجمة المقال إلى الألمانية", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:de,text:المقال"}}
+{"id": 308, "query": "التأمين بتاعي بيغطي عملية المرارة؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "procedure:عملية المرارة"}}
+{"id": 309, "query": "فيه باقات العمرة لستة أشخاص في المدينة؟", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:المدينة,num_persons:6"}}
+{"id": 310, "query": "الرجاء تحويل 1500 درهم إماراتي إلى دينار بحريني.", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:1500,from_currency:AED,to_currency:BHD"}}
+{"id": 311, "query": "ما هي حالة الطقس في مسقط الآن؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:مسقط"}}
+{"id": 312, "query": "بغيت أحول 2000 جنيه مصري إلى دينار بحريني", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:2000,from_currency:EGP,to_currency:BHD"}}
+{"id": 313, "query": "أريد معرفة حالة التأشيرة برقم 1234567890", "tool_called": "check_visa_status", "arguments": {"visa_number": 1234567890}}
+{"id": 314, "query": "كم ستكون مكافأة نهاية الخدمة إذا كنت أعمل لمدة ٥ سنوات براتب ٧٠٠٠ ريال وتوقفت عن العمل؟", "tool_called": "calculate_end_of_service", "arguments": {"salary": 7000, "years_of_service": 5}}
+{"id": 315, "query": "عايز أطلب بيتزا من دومينوز فيها جبنة وطماطم", "tool_called": "order_food", "arguments": {"raw_values": "items:جبنة وطماطم,restaurant:دومينوز"}}
+{"id": 316, "query": "كم ستكون مكافأة نهاية الخدمة إذا كنت أعمل براتب ٥٠٠٠ ريال لمدة ٥ سنوات وتم إنهاء العقد بسبب تقليص العمالة؟", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:5000,termination_type:economic,years_of_service:5"}}
+{"id": 317, "query": "أريد معرفة صلاحية الإقامة رقم 33445566.", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 33445566}}
+{"id": 318, "query": "قديش نظافة الهواء بالشام هلأ؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:الشام"}}
+{"id": 319, "query": "كيف أقول 'عيد ميلاد سعيد' بالفرنسي؟", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:fr,text:عيد ميلاد سعيد"}}
+{"id": 320, "query": "عندي تأشيرة رقم ٣٢١٠٩٨، كيف فيني أعرف حالتها؟", "tool_called": "check_visa_status", "arguments": {"visa_number": 321098}}
+{"id": 321, "query": "البحث عن فنادق في أبوظبي من 15 يناير إلى 20 يناير لأربعة أشخاص", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-01-15,check_out:2023-01-20,city:أبوظبي,guests:4"}}
+{"id": 322, "query": "اطلب لي كبسة دجاج من مطعم النعيمي", "tool_called": "order_food", "arguments": {"raw_values": "items:كبسة دجاج,restaurant:النعيمي"}}
+{"id": 323, "query": "حجزت فندق في دبي الأسبوع الماضي", "tool_called": "none", "arguments": {}}
+{"id": 324, "query": "بدور على فنادق باربع نجوم بعمان من ١٧ ل٢٢ نوفمبر لثنين ضيوف", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:17-11-2023,check_out:22-11-2023,city:عمان,guests:2"}}
+{"id": 325, "query": "التأمين الخاص بيا بيغطي عملية ليزك؟ رقم التأمين 11223344", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:11223344,procedure:عملية ليزك"}}
+{"id": 326, "query": "كيف أحسب مكافأة نهاية الخدمة إذا كان راتبي 7000 ريال وسنوات الخدمة 8 سنوات وسبب الإنهاء فصل؟", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:7000,termination_type:dismissal,years_of_service:8"}}
+{"id": 327, "query": "ترجملي النص ده للإسبانية: صباح الخير", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:es,text:صباح الخير"}}
+{"id": 328, "query": "بغيت ناخذ موعد عند طبيب الأطفال ففاس نهار الجمعة", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:فاس,date:نهار الجمعة,specialty:طبيب الأطفال"}}
+{"id": 329, "query": "كم ركعة في صلاة الظهر؟", "tool_called": "none", "arguments": {}}
+{"id": 330, "query": "طلبت بيتزا من مطعم دومينوز، الطلب بيتزا مارجريتا وبيبسي", "tool_called": "order_food", "arguments": {"raw_values": "items:بيتزا مارجريتا وبيبسي,restaurant:دومينوز"}}
+{"id": 331, "query": "فين فنادق في الأقصر من 25 نوفمبر ل 30 نوفمبر لشخص واحد؟", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-11-25,check_out:2023-11-30,city:الأقصر,guests:1"}}
+{"id": 332, "query": "أبي أحول ١٠٠٠ درهم لحساب عيسى في عمان رقم الحساب OM1122334455", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:1000,currency:درهم,recipient_iban:OM1122334455,recipient_name:عيسى"}}
+{"id": 333, "query": "أطلعني على جودة الهواء في الكويت.", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:الكويت"}}
+{"id": 334, "query": "ابحث لي عن باقة عمرة في مكة لثلاثة أشخاص.", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:مكة,num_persons:3"}}
+{"id": 335, "query": "وش توقعات الطقس في الخبر لأسبوعين؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:الخبر,days:14"}}
+{"id": 336, "query": "عايز أطلب بيتزا من دومينوز: 1 مارجريتا و1 سوبر سوبريم", "tool_called": "order_food", "arguments": {"raw_values": "items:1 مارجريتا, 1 سوبر سوبريم,restaurant:دومينوز"}}
+{"id": 337, "query": "هل يمكنني معرفة المخالفات المرورية الخاصة برقم الهوية 9988776655؟", "tool_called": "check_traffic_violations", "arguments": {"id_number": 9988776655}}
+{"id": 338, "query": "أريد معرفة ما إذا كان تأميني يغطي عملية تصحيح النظر. رقم التأمين 987654321", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:987654321,procedure:تصحيح النظر"}}
+{"id": 339, "query": "ودي أحول ١٠٠٠ دولار لأخي أحمد في سوريا، هذا الآيبان حقه: SY123456789", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:1000,currency:USD,recipient_iban:SY123456789,recipient_name:أحمد"}}
+{"id": 340, "query": "شنو اتجاه القبلة في الكويت؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:الكويت"}}
+{"id": 341, "query": "عايز أعرف ترجمة كلمة 'سلام' للفرنسي", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:fr,text:سلام"}}
+{"id": 342, "query": "ممكن تقول لي الجو عامل إزاي في الأقصر النهارده؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:الأقصر,days:1"}}
+{"id": 343, "query": "ترجم هذه الكلمة إلى الإسبانية: 'أصدقاء'", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:es,text:أصدقاء"}}
+{"id": 344, "query": "لازم أعرف حالة التأشيرة رقم ٨٩١٢٣٤٥٦٧", "tool_called": "check_visa_status", "arguments": {"visa_number": 891234567}}
+{"id": 345, "query": "كم جمرك لابتوب سعره ١٠٠٠ دولار بدبي؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:لابتوب,destination_country:دبي,product_value:1000"}}
+{"id": 346, "query": "أريد معرفة مدى تغطية التأمين للعمليات التجميلية ورقم التأمين هو 123456", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:123456,procedure:العمليات التجميلية"}}
+{"id": 347, "query": "هل إقامتي لا تزال صالحة؟ رقمي ٧٦٥٤٣٢١٨٩", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 765432189}}
+{"id": 348, "query": "ممكن تحسبلي زكاة الذهب إذا عندي 150 جرام بالليرة السورية؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:150,currency:SYP,type:gold"}}
+{"id": 349, "query": "عايز أعمل بحث في القرآن عن كلمة رحمة", "tool_called": "search_quran", "arguments": {"raw_values": "query:رحمة"}}
+{"id": 350, "query": "ودي أعرف جودة الهواء في دبي الحين", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:دبي"}}
+{"id": 351, "query": "ابحث عن آية تتحدث عن الصبر في القرآن", "tool_called": "search_quran", "arguments": {"raw_values": "query:الصبر"}}
+{"id": 352, "query": "كم الجمارك على كاميرا سعرها ١٨٠٠ ريال في قطر؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:camera,destination_country:قطر,product_value:1800"}}
+{"id": 353, "query": "كيفك؟ شخبارك؟", "tool_called": "none", "arguments": {}}
+{"id": 354, "query": "بدي حول 500 دولار لليورو", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:500,from_currency:USD,to_currency:EUR"}}
+{"id": 355, "query": "وش اتجاه القبلة في الدمام؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:الدمام"}}
+{"id": 356, "query": "أبحث عن دواء الميتفورمين في الإسكندرية.", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:الميتفورمين"}}
+{"id": 357, "query": "الحمد لله حسبت زكاتي هالسنة", "tool_called": "none", "arguments": {}}
+{"id": 358, "query": "حول ٥٠٠ دولار لحساب سارة برقم IBAN AE070331234567890123456", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:500,currency:USD,recipient_iban:AE070331234567890123456,recipient_name:سارة"}}
+{"id": 359, "query": "دكتور جلدية كويس في طنطا", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:طنطا,specialty:جلدية"}}
+{"id": 360, "query": "الإقامة بتاعتي صلاحيتها ايه؟ رقمها 987654321", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 987654321}}
+{"id": 361, "query": "وش الأدوية اللي متوفرة لعلاج الربو؟", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:علاج الربو"}}
+{"id": 362, "query": "ممكن تتأكد من صلاحية إقامتي على الرقم ٤٥٦٧٨٩٠", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 4567890}}
+{"id": 363, "query": "ابي اعرف اذا في باقات عمرة لاربعة اشخاص في جدة؟", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:جدة,num_persons:4"}}
+{"id": 364, "query": "ابي اعرف المخالفات المرورية حقي، رقم الهوية ١٢٣٤٥٦٧٨٩٠", "tool_called": "check_traffic_violations", "arguments": {"id_number": 1234567890}}
+{"id": 365, "query": "تقدر تعطيني وصفة طبية؟", "tool_called": "none", "arguments": {}}
+{"id": 366, "query": "أبغي أقارن أسعار آيفون في السعودية", "tool_called": "compare_prices", "arguments": {"raw_values": "country:السعودية,product_name:آيفون"}}
+{"id": 367, "query": "قديش باقي من مدة الإقامة برقم 445566؟", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 445566}}
+{"id": 368, "query": "كم صلاحية إقامتي؟ رقمي ٠٠١١٢٢٣٣", "tool_called": "check_iqama_status", "arguments": {"raw_values": "iqama_number:00112233"}}
+{"id": 369, "query": "إيه حالة الإقامة دي؟ رقمها 987654", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 987654}}
+{"id": 370, "query": "احسبلي الجمارك على لابتوب قيمته ١٠٠٠ دولار وصنفه إلكترونيات في السعودية", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:إلكترونيات,destination_country:السعودية,product_value:1000"}}
+{"id": 371, "query": "ما حالة إقامتي ورقمها 5544332211؟", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 5544332211}}
+{"id": 372, "query": "كيف الجو ببيروت اليوم؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:بيروت"}}
+{"id": 373, "query": "أخبرني عن جودة الهواء في الرياض.", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:الرياض"}}
+{"id": 374, "query": "أبي أعرف إذا عندي مخالفات مرورية، رقم الهوية ١١٢٢٣٣٤٤", "tool_called": "check_traffic_violations", "arguments": {"id_number": 11223344}}
+{"id": 375, "query": "عايز أعرف باقات العمرة من القاهرة لخمسة أشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:القاهرة,num_persons:5"}}
+{"id": 376, "query": "كم قيمة زكاة المال إذا كان لدي 5000 ريال؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:5000,currency:ريال,type:cash"}}
+{"id": 377, "query": "هل يوجد فنادق في الدوحة من ٢٣ إلى ٢٨ مايو؟", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-05-23,check_out:2023-05-28,city:الدوحة"}}
+{"id": 378, "query": "أريد أن أطلب طعام من مطعم برجر كنج يشمل وجبة وافل وبيبسي.", "tool_called": "order_food", "arguments": {"raw_values": "items:وجبة وافل, بيبسي,restaurant:برجر كنج"}}
+{"id": 379, "query": "ابحث لي عن آية تتحدث عن الصبر", "tool_called": "search_quran", "arguments": {"raw_values": "query:الصبر"}}
+{"id": 380, "query": "أبحث عن دواء كونكور", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:كونكور"}}
+{"id": 381, "query": "ممكن تترجم لي هالجملة للإنجليزي؟ حبك مثل البحر ما ينتهي", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:en,text:حبك مثل البحر ما ينتهي"}}
+{"id": 382, "query": "فيه مخالفات مرورية على الرقم القومي 456789؟", "tool_called": "check_traffic_violations", "arguments": {"id_number": 456789}}
+{"id": 383, "query": "محتاج أعرف إذا فيه باقات عمرة من المنيا لثلاثة أشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:المنيا,num_persons:3"}}
+{"id": 384, "query": "عايز أدوّر على دواء بانادول", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:بانادول"}}
+{"id": 385, "query": "ما رأيك بالأكل النباتي؟", "tool_called": "none", "arguments": {}}
+{"id": 386, "query": "كيف سيكون الطقس في تونس خلال الثلاثة أيام القادمة؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:تونس,days:3"}}
+{"id": 387, "query": "فين جات القبلة فمدينة وجدة؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:وجدة"}}
+{"id": 388, "query": "أريد باقة عمرة من جدة لأربعة أشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:جدة,num_persons:4"}}
+{"id": 389, "query": "أود معرفة حالة التأشيرة الخاصة برقم ١٠٢٠٣٠٤٠٥٠", "tool_called": "check_visa_status", "arguments": {"visa_number": 1020304050}}
+{"id": 390, "query": "مساء النور", "tool_called": "none", "arguments": {}}
+{"id": 391, "query": "عايز أعرف الصيدليات اللي عندها دواء بنادول في الإسكندرية", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:بنادول"}}
+{"id": 392, "query": "هل توجد فنادق في مدينة مكة من 10 ديسمبر إلى 15 ديسمبر لشخصين؟", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-12-10,check_out:2023-12-15,city:مكة,guests:2"}}
+{"id": 393, "query": "بدي أبحث بالقرآن عن آية بتحكي عن الرحمة", "tool_called": "search_quran", "arguments": {"raw_values": "query:الرحمة"}}
+{"id": 394, "query": "عايز أطلب أكل من ماكدونالدز، همبرجر و تشيز برجر و بيبسي", "tool_called": "order_food", "arguments": {"raw_values": "items:همبرجر, تشيز برجر, بيبسي,restaurant:ماكدونالدز"}}
+{"id": 395, "query": "ترجم لي النص ده للإنجليزي: شكراً جزيلاً", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:en,text:شكراً جزيلاً"}}
+{"id": 396, "query": "في مجال تشوفلي صلاحية الإقامة على الرقم 987654321؟", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 987654321}}
+{"id": 397, "query": "اريد ترجمة هذه الفقرة إلى الإسبانية: 'مرحبا، كيف حالك؟'", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:es,text:مرحبا، كيف حالك؟"}}
+{"id": 398, "query": "حالة الفيزا لو سمحت، رقم الفيزا 334455", "tool_called": "check_visa_status", "arguments": {"visa_number": 334455}}
+{"id": 399, "query": "ممكن أبحث في القرآن عن آية الكرسي؟", "tool_called": "search_quran", "arguments": {"raw_values": "query:آية الكرسي"}}
+{"id": 400, "query": "اكتب لي خطاب تقديم لوظيفة", "tool_called": "none", "arguments": {}}
+{"id": 401, "query": "كيف حالة الطقس في القاهرة اليوم؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:القاهرة,days:1"}}
+{"id": 402, "query": "هل يغطي تأميني رقم 555666777 فحص الدم؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:555666777,procedure:فحص الدم"}}
+{"id": 403, "query": "ترجم لي النص هذا: كيف الحال؟", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:en,text:كيف الحال؟"}}
+{"id": 404, "query": "عايز أعرف حالة تأشيرتي، الرقم بتاعها هو 87654321", "tool_called": "check_visa_status", "arguments": {"visa_number": 87654321}}
+{"id": 405, "query": "ممكن أعرف حالة التأشيرة بتاعتي؟ رقمها هو ١٢٣٤٥٦", "tool_called": "check_visa_status", "arguments": {"visa_number": 123456}}
+{"id": 406, "query": "وينيه القبلة في تونس؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:تونس"}}
+{"id": 407, "query": "محتاج أعرف حالة التأشيرة بتاعتي", "tool_called": "check_visa_status", "arguments": {}}
+{"id": 408, "query": "محتاج أحجز عند دكتور أطفال في المنصورة النهارده", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:المنصورة,date:today,specialty:أطفال"}}
+{"id": 409, "query": "كم ستبلغ مكافأة نهاية الخدمة إذا كان راتبي الشهري 7000 ريال وعملت في الشركة لمدة 5 سنوات وفصلت بسبب انتهاء العقد؟", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:7000,termination_type:end_of_contract,years_of_service:5"}}
+{"id": 410, "query": "كم أطلع زكاة على 5000 ريال؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:5000,currency:ريال,type:cash"}}
+{"id": 411, "query": "ابي احجز موعد عند دكتور أطفال في جدة", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:جدة,specialty:أطفال"}}
+{"id": 412, "query": "فين نلقى دواء ديال الدياليز؟", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:الدياليز"}}
+{"id": 413, "query": "فيه طريقة أعرف بيها حالة التأشيرة بالرقم 2233445566؟", "tool_called": "check_visa_status", "arguments": {"visa_number": 2233445566}}
+{"id": 414, "query": "هل يوجد دواء زنتاك في السوق؟", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:زنتاك"}}
+{"id": 415, "query": "شو جودة الهواء بعمّان اليوم؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:عمان"}}
+{"id": 416, "query": "كيف أحسب زكاة 500000 درهم من المال؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:500000,currency:AED,type:cash"}}
+{"id": 417, "query": "لو سمحت، حاسبلي مكافأة نهاية الخدمة على مرتب ٤٠٠٠، خدمتي ١٠ سنين، ونوع الفصل استقالة", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:4000,termination_type:resignation,years_of_service:10"}}
+{"id": 418, "query": "ابحث عن باقة عمرة في جدة لخمسة أشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:جدة,num_persons:5"}}
+{"id": 419, "query": "لو سمحت، ممكن أعرف اتجاه القبلة في طنطا؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:طنطا"}}
+{"id": 420, "query": "ابحث لي في القرآن عن كلمة الرحمة.", "tool_called": "search_quran", "arguments": {"raw_values": "query:الرحمة"}}
+{"id": 421, "query": "محتاج أعرف جودة الهوا في طنطا", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:طنطا"}}
+{"id": 422, "query": "درجة نقاء الهواء في الأقصر؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:الأقصر"}}
+{"id": 423, "query": "بدور على دواء الضغط العالي. إسمه املوديبين", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:املوديبين"}}
+{"id": 424, "query": "أريد معرفة إذا كان التأمين يغطى علاج الكيماوي", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "procedure:علاج الكيماوي"}}
+{"id": 425, "query": "متى تنتهي صلاحية إقامتي برقم 11221122؟", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 11221122}}
+{"id": 426, "query": "قارن لي أسعار جهاز آيفون في مصر والسعودية", "tool_called": "compare_prices", "arguments": {"raw_values": "country:مصر,product_name:آيفون"}}
+{"id": 427, "query": "محتاج أطلب كشري من كشري التحرير", "tool_called": "order_food", "arguments": {"raw_values": "items:كشري,restaurant:كشري التحرير"}}
+{"id": 428, "query": "شنو أسعار البلايستيشن ٥ في البحرين؟", "tool_called": "compare_prices", "arguments": {"raw_values": "country:البحرين,product_name:بلايستيشن ٥"}}
+{"id": 429, "query": "ما هي الأدوية المتاحة لعلاج السكري؟", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:السكري"}}
+{"id": 430, "query": "إيش رأيك في العمل عن بعد؟", "tool_called": "none", "arguments": {}}
+{"id": 431, "query": "شو حالة الطقس بعمّان لبكرة وبعده؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:عمّان,days:2"}}
+{"id": 432, "query": "أبغي أعرف حالة الطقس في البحرين بكرة", "tool_called": "get_weather", "arguments": {"raw_values": "city:البحرين,days:1"}}
+{"id": 433, "query": "شخبار الطقس في مسقط خلال ثلاثة أيام؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:مسقط,days:3"}}
+{"id": 434, "query": "الله يسلمك", "tool_called": "none", "arguments": {}}
+{"id": 435, "query": "إذا حبيت أسافر للعمرة، شو الخطوات؟", "tool_called": "none", "arguments": {}}
+{"id": 436, "query": "ما هي رسوم الجمارك على جهاز تلفاز بقيمة 700 دولار في الإمارات؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:تلفاز,destination_country:الإمارات,product_value:700"}}
+{"id": 437, "query": "عاوز أحجز فندق في الإسكندرية من يوم ٢٥ لحد ٢٨ أكتوبر", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-10-25,check_out:2023-10-28,city:الإسكندرية"}}
+{"id": 438, "query": "اخبار جودة الهوا في الجيزة؟", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:الجيزة"}}
+{"id": 439, "query": "ممكن استعلم عن مخالفات المرور برقم البطاقة 87654321098765؟", "tool_called": "check_traffic_violations", "arguments": {"id_number": 87654321098765}}
+{"id": 440, "query": "أرغب في معرفة جودة الهواء في مسقط.", "tool_called": "get_air_quality", "arguments": {"raw_values": "city:مسقط"}}
+{"id": 441, "query": "كيفاش نحسب زكاة المال على ١٠٠٠٠ درهم؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:10000,currency:درهم,type:cash"}}
+{"id": 442, "query": "محتاج أحجز مع دكتور جهاز هضمي في طنطا يوم الاتنين", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:طنطا,date:يوم الاتنين,specialty:جهاز هضمي"}}
+{"id": 443, "query": "بدي اعرف فنادق منيحة ببيروت لشخصين من ١ فبراير ل٥ فبراير.", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:١ فبراير,check_out:٥ فبراير,city:بيروت,guests:2"}}
+{"id": 444, "query": "أحتاج لتحويل ١٠٠٠ ريال إلى دولار أمريكي", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:1000,from_currency:SAR,to_currency:USD"}}
+{"id": 445, "query": "ممكن أحجز موعد مع دكتور جلدية في الكويت", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:الكويت,specialty:جلدية"}}
+{"id": 446, "query": "شيكت على المخالفات المرورية وما طلع عندي شي", "tool_called": "none", "arguments": {}}
+{"id": 447, "query": "أريد حجز باقة عمرة من الطائف لخمسة أشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:الطائف,num_persons:5"}}
+{"id": 448, "query": "شلون الجو في الرياض اليوم؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:الرياض,days:1"}}
+{"id": 449, "query": "عايز أحول ١٥٠٠ دولار لحسن في مصر رقم الحساب EG210000102010000678940", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:1500,currency:USD,recipient_iban:EG210000102010000678940,recipient_name:Hassan"}}
+{"id": 450, "query": "شيك لي على مخالفاتي المرورية، الهوية 3322114455.", "tool_called": "check_traffic_violations", "arguments": {"id_number": 3322114455}}
+{"id": 451, "query": "عندي تأمين رقم 456123789 وتغطيتي تشمل العلاج الطبيعي؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "insurance_number:456123789,procedure:العلاج الطبيعي"}}
+{"id": 452, "query": "كيف أحسب زكاة المال بمبلغ 15000 ريال؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:15000,currency:ريال,type:cash"}}
+{"id": 453, "query": "محتاج أشوف صلاحية الإقامة بتاعتي، رقمها ٧٨٩٠١٢٣", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 7890123}}
+{"id": 454, "query": "كيف بحسب زكاة المال عن ٢٠٠٠ دولار؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:2000,currency:USD,type:cash"}}
+{"id": 455, "query": "ممكن تترجم الكلام ده للألماني: السفر ممتع", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:de,text:السفر ممتع"}}
+{"id": 456, "query": "بغيت اطلب أكل من مطعم البيك، جيب لي ٣ وجبات دجاج وبطاطس", "tool_called": "order_food", "arguments": {"raw_values": "items:٣ وجبات دجاج وبطاطس,restaurant:البيك"}}
+{"id": 457, "query": "شلون أحسب مكافأة نهاية الخدمة لو راتبي 5000 والسنين 10 وإنهاء الخدمة كان استقالة؟", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:5000,termination_type:resignation,years_of_service:10"}}
+{"id": 458, "query": "أحتاج لمعرفة إذا كان دواء الأمبيسيلين متوفر في الدمام.", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:الأمبيسيلين"}}
+{"id": 459, "query": "ما هي أفضل شركة تأمين صحي في الخليج؟", "tool_called": "none", "arguments": {}}
+{"id": 460, "query": "حول لي 3000 ليرة سورية إلى ليرة لبنانية.", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:3000,from_currency:SYP,to_currency:LBP"}}
+{"id": 461, "query": "ليش أسعار الصرف تتغير كل يوم؟", "tool_called": "none", "arguments": {}}
+{"id": 462, "query": "أريد تحويل 2500 ريال سعودي إلى حساب يوسف برقم IBAN: SA4420000001234567890123.", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:2500,currency:SAR,recipient_iban:SA4420000001234567890123,recipient_name:يوسف"}}
+{"id": 463, "query": "احتاج فندق في القاهرة من ١ إلى ٣ يناير.", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2024-01-01,check_out:2024-01-03,city:القاهرة"}}
+{"id": 464, "query": "اريد باقة عمرة من الخبر لخمسة اشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:الخبر,num_persons:5"}}
+{"id": 465, "query": "احسب الجمارك على ساعة قيمتها ٢٠٠٠ جنيه وهي اكسسوارات من الإمارات", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:اكسسوارات,destination_country:الإمارات,product_value:2000"}}
+{"id": 466, "query": "ابحث لي عن دواء ضغط اسمه كابوتن", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:كابوتن"}}
+{"id": 467, "query": "عايز أعرف اتجاه القبلة وأنا في شرم الشيخ", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:شرم الشيخ"}}
+{"id": 468, "query": "باقات العمرة المتوفرة في المدينة المنورة لثلاثة أشخاص.", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:المدينة المنورة,num_persons:3"}}
+{"id": 469, "query": "ودي أتأكد إذا عندي مخالفات مرورية بالهوية رقم 2233445566", "tool_called": "check_traffic_violations", "arguments": {"id_number": 2233445566}}
+{"id": 470, "query": "قارن لي أسعار هاتف آيفون 13 في الإمارات", "tool_called": "compare_prices", "arguments": {"raw_values": "country:الإمارات,product_name:آيفون 13"}}
+{"id": 471, "query": "أحتاج أحجز موعد مع طبيب الجلدية في دبي الأسبوع الجاي", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:دبي,date:الأسبوع القادم,specialty:الجلدية"}}
+{"id": 472, "query": "بغيت أحجز فنادق في مسقط من ١٥ لغاية ١٨ ديسمبر لشخصين", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-12-15,check_out:2023-12-18,city:مسقط,guests:2"}}
+{"id": 473, "query": "قارن أسعار هاتف آيفون في مصر والسعودية", "tool_called": "compare_prices", "arguments": {"raw_values": "country:مصر,product_name:آيفون"}}
+{"id": 474, "query": "ممكن أحجز موعد عند دكتور قلب في الإسكندرية الأسبوع الجاي؟", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:الإسكندرية,date:next week,specialty:قلب"}}
+{"id": 475, "query": "شو الخيارات المتاحة؟", "tool_called": "none", "arguments": {}}
+{"id": 476, "query": "لو سمحت، عايز أعرف تفاصيل باقات العمرة من الإسكندرية لثلاثة أفراد.", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:الإسكندرية,num_persons:3"}}
+{"id": 477, "query": "بغيت نبدل 1500 يورو لدينار جزائري", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:1500,from_currency:EUR,to_currency:DZD"}}
+{"id": 478, "query": "كم جمركة ساعة أبل بقيمة 2000 ريال في الكويت؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:ساعة,destination_country:الكويت,product_value:2000"}}
+{"id": 479, "query": "تأميني بيغطي عمليات التجميل؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "procedure:عمليات التجميل"}}
+{"id": 480, "query": "أقدر أعرف حالة تأشيرتي برقم ١٢٣٤٥٦؟", "tool_called": "check_visa_status", "arguments": {"visa_number": 123456}}
+{"id": 481, "query": "تغطي تأميني عملية المنظار؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "procedure:منظار"}}
+{"id": 482, "query": "أريد حجز موعد لطبيب الأمراض الجلدية في جدة بعد غد.", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:جدة,date:after tomorrow,specialty:الأمراض الجلدية"}}
+{"id": 483, "query": "شوفلي باقات العمرة من القاهرة لخمسة أشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:القاهرة,num_persons:5"}}
+{"id": 484, "query": "قديش لازم ادفع زكاة عن ٥٠٠٠ ليرة سوري؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:5000,currency:SYP,type:cash"}}
+{"id": 485, "query": "كم نسبة الزكاة على ذهب بقيمة ٢٠٠٠ ريال؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:2000,currency:ريال,type:gold"}}
+{"id": 486, "query": "ما هي مكافأة نهاية الخدمة إذا كنت أعمل منذ 5 سنوات وراتبي 3000 ريال وتم إنهاء العقد برضاي؟", "tool_called": "calculate_end_of_service", "arguments": {"salary": 3000, "years_of_service": 5}}
+{"id": 487, "query": "أبي أحول ١٠٠٠ دولار أمريكي إلى حساب أخوي عبدالله في الكويت شلون؟", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:1000,currency:USD,recipient_name:عبدالله"}}
+{"id": 488, "query": "إزاي أحسب زكاة المال لو عندي ٥٠٠٠ جنيه؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:5000,currency:جنيه,type:cash"}}
+{"id": 489, "query": "بغيت أشيك على حالة تأشيرتي، رقمها ٢٣٤٥٦٧٨", "tool_called": "check_visa_status", "arguments": {"visa_number": 2345678}}
+{"id": 490, "query": "محتاج دكتور أسنان في المنصورة بسرعة", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:المنصورة,specialty:أسنان"}}
+{"id": 491, "query": "أبي أشيك على حالة إقامتي، رقمي ٣٤٥٦٧٨٩٠١٢", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 3456789012}}
+{"id": 492, "query": "كم بيطلعلي تعويض نهاية الخدمة اذا الراتب الشهري 2000 واشتغلت ل7 سنين وطردوني؟", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:2000,termination_type:dismissal,years_of_service:7"}}
+{"id": 493, "query": "هل تقدر تسوي لي حساب بنكي؟", "tool_called": "none", "arguments": {}}
+{"id": 494, "query": "بدي أحجز فندق بدمشق من يوم الاثنين للخميس لأربع ضيوف.", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-10-09,check_out:2023-10-12,city:دمشق,guests:4"}}
+{"id": 495, "query": "أحتاج لمعرفة حالة التأشيرة رقم 234567890", "tool_called": "check_visa_status", "arguments": {"visa_number": 234567890}}
+{"id": 496, "query": "أود مقارنة أسعار لاب توب ديل في السعودية", "tool_called": "compare_prices", "arguments": {"raw_values": "country:السعودية,product_name:لاب توب ديل"}}
+{"id": 497, "query": "عايز أحوّل ١٠٠٠ دولار أمريكي لليورو", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:1000,from_currency:USD,to_currency:EUR"}}
+{"id": 498, "query": "ممكن تترجملي النص ده للفرنساوي: انا بحب الأكل المصري", "tool_called": "translate_text", "arguments": {"raw_values": "target_language:fr,text:انا بحب الأكل المصري"}}
+{"id": 499, "query": "احسبلي مكافأة نهاية الخدمة لمرتب 5000 ج بالشهر لمدة 3 سنين ونوع الاستغناء هو انتهاء العقد", "tool_called": "calculate_end_of_service", "arguments": {"raw_values": "salary:5000,termination_type:end_of_contract,years_of_service:3"}}
+{"id": 500, "query": "كيف احسب مكافأة نهاية الخدمة براتب ١٠٠٠٠ ومدة خدمة ٥ سنوات؟", "tool_called": "calculate_end_of_service", "arguments": {"salary": 10000, "years_of_service": 5}}
+{"id": 501, "query": "كيف فيني أحوّل مية دولار ليرة سورية؟", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:100,from_currency:USD,to_currency:SYP"}}
+{"id": 502, "query": "بدي قارن أسعار تليفونات سامسونج بين لبنان والأردن", "tool_called": "compare_prices", "arguments": {"raw_values": "country:لبنان، الأردن,product_name:تليفون سامسونج"}}
+{"id": 503, "query": "ما هو أعلى جبل في العالم العربي؟", "tool_called": "none", "arguments": {}}
+{"id": 504, "query": "ما هي اتجاه القبلة في جدة؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:جدة"}}
+{"id": 505, "query": "حولت فلوس لأخوي أمس، وصلته الحوالة", "tool_called": "none", "arguments": {}}
+{"id": 506, "query": "عايز أحجز عمرة من الرياض ل٣ أشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:الرياض,num_persons:3"}}
+{"id": 507, "query": "عايز أحجز عند دكتور أمراض قلب في القاهرة يوم الأربعاء", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:القاهرة,date:الأربعاء,specialty:أمراض قلب"}}
+{"id": 508, "query": "رجاءً حول 1500 ريال قطري إلى حسين في قطر", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:1500,currency:QAR,recipient_name:حسين"}}
+{"id": 509, "query": "ليش الجو في الخليج حار أكثر من لبنان؟", "tool_called": "none", "arguments": {}}
+{"id": 510, "query": "لو سمحت، بدي أرسل ٣٠٠٠ جنيه مصري لأحمد بمصر، شو الإجراءات؟", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:3000,currency:EGP,recipient_iban:مصر,recipient_name:أحمد"}}
+{"id": 511, "query": "متى تنتهي إقامتي برقم ٣٤٤٥٥٦٦٧٧٨؟", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 3445566778}}
+{"id": 512, "query": "أبحث عن باقات عمرة من المدينة المنورة لعدد ٥ أشخاص", "tool_called": "search_umrah_packages", "arguments": {"raw_values": "departure_city:المدينة المنورة,num_persons:5"}}
+{"id": 513, "query": "ممكن أحجز موعد مع دكتور أطفال في إسكندرية بكره؟", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:إسكندرية,date:tomorrow,specialty:أطفال"}}
+{"id": 514, "query": "عايز أحجز مع دكتور أنف وأذن وحنجرة في الجيزة يوم الحد الجاي", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:الجيزة,date:الحد الجاي,specialty:أنف وأذن وحنجرة"}}
+{"id": 515, "query": "التأمين بتاع أختي بيغطي خلع الضرس؟", "tool_called": "check_insurance_coverage", "arguments": {"raw_values": "procedure:خلع الضرس"}}
+{"id": 516, "query": "حالة الإقامة برقم 5566778899", "tool_called": "check_iqama_status", "arguments": {"iqama_number": 5566778899}}
+{"id": 517, "query": "بدي استفسر عن المخالفات المرورية على رقم الهوية ٦٥٤٣٢١٠٠٩", "tool_called": "check_traffic_violations", "arguments": {"id_number": 654321009}}
+{"id": 518, "query": "بيدور على دواء البروفين في الصيدليات", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:بروفين"}}
+{"id": 519, "query": "فيه مخالفة مرورية على البطاقة بتاعتي؟ رقم البطاقة 11223344", "tool_called": "check_traffic_violations", "arguments": {"id_number": 11223344}}
+{"id": 520, "query": "ابحث لي في القرآن عن كلمة الرحمة.", "tool_called": "search_quran", "arguments": {"raw_values": "query:الرحمة"}}
+{"id": 521, "query": "أبي أطلب طعام من مطعم بيتزا هت، أقدر آخذ بيتزا حجم كبير وبيبسي", "tool_called": "order_food", "arguments": {"raw_values": "items:بيتزا حجم كبير, بيبسي,restaurant:بيتزا هت"}}
+{"id": 522, "query": "بدي قارن اسعار موبايل آيفون بين سوريا ولبنان", "tool_called": "compare_prices", "arguments": {"raw_values": "country:سوريا ولبنان,product_name:موبايل آيفون"}}
+{"id": 523, "query": "ممكن تحول لي 750 يورو لحساب محمود حسن في بنك مصر.", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:750,currency:EUR,recipient_name:محمود حسن"}}
+{"id": 524, "query": "وين اتجاه القبلة في الدمام؟", "tool_called": "get_qibla_direction", "arguments": {"raw_values": "city:الدمام"}}
+{"id": 525, "query": "شحال خصني نخرج ديال الزكاة فهاذ 200000 درهم؟", "tool_called": "calculate_zakat", "arguments": {"raw_values": "amount:200000,currency:MAD,type:cash"}}
+{"id": 526, "query": "أبغى أعرف جمرك هذا اللابتوب اللي قيمته 3000 ريال في السعودية", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:لابتوب,destination_country:السعودية,product_value:3000"}}
+{"id": 527, "query": "ابحث لي عن فنادق في إسطنبول من العشرين إلى الخامس والعشرين من يونيو.", "tool_called": "search_hotels", "arguments": {"raw_values": "check_in:2023-06-20,check_out:2023-06-25,city:إسطنبول"}}
+{"id": 528, "query": "أنا عايز أطلب أكل من مطعم المحروسة، عايز كباب و2 كفتة", "tool_called": "order_food", "arguments": {"raw_values": "items:كباب, 2 كفتة,restaurant:المحروسة"}}
+{"id": 529, "query": "عايز أطلب أكلة من مطعم البركة. عايز بيتزا وكولا.", "tool_called": "order_food", "arguments": {"raw_values": "items:بيتزا, كولا,restaurant:البركة"}}
+{"id": 530, "query": "أنا مسافر قريب، ممكن أعرف حالة التأشيرة رقمها ٤٥٦٧٨٩١؟", "tool_called": "check_visa_status", "arguments": {"visa_number": 4567891}}
+{"id": 531, "query": "أريد معرفة حالة التأشيرة برقم 123456789", "tool_called": "check_visa_status", "arguments": {"visa_number": 123456789}}
+{"id": 532, "query": "أبغى أطلب أكل من مطعم الشويخ، طلباتنا بتكون مشاوي و رز", "tool_called": "order_food", "arguments": {"raw_values": "items:مشاوي, رز,restaurant:الشويخ"}}
+{"id": 533, "query": "ممكن تحولي ٥٠٠٠ جنيه لحساب محمد في البنك الأهلي؟", "tool_called": "transfer_money", "arguments": {"raw_values": "amount:5000,currency:EGP,recipient_name:محمد"}}
+{"id": 534, "query": "عطيني حالة الطقس بصيدا للأسبوعين القادمين", "tool_called": "get_weather", "arguments": {"raw_values": "city:صيدا,days:14"}}
+{"id": 535, "query": "اكتب لي قصيدة عن الحب", "tool_called": "none", "arguments": {}}
+{"id": 536, "query": "كم الجمارك على الملابس اللي بتيجي من تركيا وسعرها 2000 جنيه؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:ملابس,destination_country:تركيا,product_value:2000"}}
+{"id": 537, "query": "أريد تحويل ٥٠٠ دولار أمريكي إلى يورو.", "tool_called": "convert_currency", "arguments": {"raw_values": "amount:500,from_currency:USD,to_currency:EUR"}}
+{"id": 538, "query": "ودي دكتور أطفال في جدة بعد بكرة", "tool_called": "book_doctor_appointment", "arguments": {"raw_values": "city:جدة,date:2023-10-12,specialty:أطفال"}}
+{"id": 539, "query": "كيف الأمور معاك؟", "tool_called": "none", "arguments": {}}
+{"id": 540, "query": "كيف أسعار الآيفون في السعودية؟", "tool_called": "compare_prices", "arguments": {"raw_values": "country:السعودية,product_name:الآيفون"}}
+{"id": 541, "query": "عايز أقارن أسعار الآيفون في مصر والهند", "tool_called": "compare_prices", "arguments": {"raw_values": "country:مصر والهند,product_name:الآيفون"}}
+{"id": 542, "query": "دور لي على دواء بنادول", "tool_called": "search_medications", "arguments": {"raw_values": "medication_name:بنادول"}}
+{"id": 543, "query": "الجو في مسقط بعد ثلاث أيام شلون بيكون؟", "tool_called": "get_weather", "arguments": {"raw_values": "city:مسقط,days:3"}}
+{"id": 544, "query": "كم الجمارك على تلفزيون قيمته ٣٠٠٠ ريال؟", "tool_called": "calculate_customs", "arguments": {"raw_values": "category:تلفزيون,product_value:3000"}}

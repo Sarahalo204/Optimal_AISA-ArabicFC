@@ -1,0 +1,34 @@
+default: accepted
+rulesets:
+  accepted:
+    description: Train/schema-backed rules that improved G0 internal tune and lockbox.
+    rules:
+      - id: suppress_train_never_gold_tools
+        action: set tool_called to none and clear arguments
+        tools:
+          - calculate_inheritance
+          - currency_conversion
+          - get_birthday
+          - get_current_time
+          - get_directions
+          - get_population
+          - get_time
+      - id: customs_computer_device_prefix
+        when:
+          tool_called: calculate_customs
+          argument: category
+          value: "جهاز كمبيوتر"
+        set: "كمبيوتر"
+      - id: explicit_diabetes_medication_phrase
+        when:
+          tool_called: search_medications
+          argument: medication_name
+          value: "السكري"
+          user_text_contains: "دواء السكري"
+        set: "دواء السكري"
+  legacy:
+    description: Public-dev reproduction layer; not used for internal candidate selection because it regressed tune and lockbox.
+    see: docs/methods.md
+  surface_v2:
+    description: Public-dev leaderboard calibration. Scores higher on public dev but regresses internal lockbox, so it is packaged as an optional candidate rather than the default.
+    see: docs/experiment-registry.md

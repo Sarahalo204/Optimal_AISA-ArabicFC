@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "lockbox": 1055,
+    "train": 8440,
+    "tune": 1055
+  },
+  "dialects": {
+    "lockbox": {
+      "egyptian": 112,
+      "gulf": 114,
+      "levantine": 165,
+      "maghrebi": 10,
+      "msa": 654
+    },
+    "train": {
+      "egyptian": 1048,
+      "gulf": 958,
+      "levantine": 1431,
+      "maghrebi": 114,
+      "msa": 4889
+    },
+    "tune": {
+      "egyptian": 123,
+      "gulf": 118,
+      "levantine": 188,
+      "maghrebi": 18,
+      "msa": 608
+    }
+  },
+  "n_total": 10550,
+  "no_calls": {
+    "lockbox": 10,
+    "train": 33,
+    "tune": 7
+  }
+}

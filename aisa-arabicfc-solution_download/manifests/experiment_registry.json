@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "dataset": {
+    "repo_id": "TuwaiqAcademy/AISA-ArabicFC",
+    "revision": "1a5e5f8a9eeadd996118a8a86f72c4285047a00e",
+    "split_seed": 20260618,
+    "split_summary": {
+      "path": "manifests/splits-v12-20260618.summary.json",
+      "sha256": "c01dabe8180cfe6a0809117ae319292605e8d324e9046b96d675ed1682a6d314"
+    },
+    "oof_summary": {
+      "path": "manifests/oof-folds-v12-20260618.summary.json",
+      "sha256": "e9412ea4c385a10dc3da9a5efb27a5a54f626d62ed1ea3a93556ca596bf92c52"
+    }
+  },
+  "evaluator": {
+    "repo_id": "TuwaiqAcademy/AISA-ArabicFC-SharedTask-Leaderboard",
+    "revision": "f73d1f95d2ccd3219e01cf2aa68173018acd9e0d"
+  },
+  "selected_run": {
+    "run_id": "G0-qwen2.5-7b-qlora-3ep",
+    "seed": 20260618,
+    "checkpoint": {
+      "base_model": "Qwen/Qwen2.5-7B-Instruct",
+      "base_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "adapter_repo": "arabic-aisa/arabicfc-7b",
+      "adapter_revision": "57aa2ab514e8fca42a5643df3fec8b0157b5437d"
+    },
+    "config_hashes": {
+      "track_a": "033e98c8d0a6d3f06b1bcc5a89b0cfe07e3a7f2406fb5bce49e984ac607555b4",
+      "track_b": "831e858be5a12f93f1d354b830f0f308c74ff47d5f3def0d822d76aa074ce68d",
+      "track_a_public_dev": "3fbcb0138f527fb67763528b99a513fc9e24b1a0442abb4ee83e9d95eb525d70",
+      "track_b_public_dev": "c2d4265b165a590c675e81c2651e82dab52982b70e11d6060d2c111bd258bfa1",
+      "postprocess_rules": "f46d0adc3c665099165bb20f0a8f5d3acfa95ac60dc0c5a35ed71e22370f4924"
+    },
+    "internal_results": [
+      {
+        "mode": "accepted",
+        "split": "internal lockbox",
+        "fnacc": 1.0,
+        "argem": 0.815311,
+        "track_a": 0.889187,
+        "track_b": 0.707656
+      },
+      {
+        "mode": "surface_v2",
+        "split": "internal lockbox",
+        "fnacc": 1.0,
+        "argem": 0.807656,
+        "track_a": 0.884593,
+        "track_b": 0.703828
+      }
+    ],
+    "public_dev": {
+      "first_viewed_at": "2026-06-18",
+      "results": [
+        {
+          "mode": "surface_v2 + think",
+          "split": "public dev",
+          "fnacc": 0.99633,
+          "argem": 0.834,
+          "track_a": 0.898932,
+          "track_b": 0.915899
+        }
+      ]
+    }
+  },
+  "rejected_runs": [
+    {
+      "run_id": "A1-runpod-qwen7b-arg-weighted",
+      "seed": 20260618,
+      "decision": "rejected",
+      "reason": "regressed internal lockbox Track A",
+      "internal_results": [
+        {
+          "split": "internal lockbox",
+          "track_a": 0.807678
+        }
+      ]
+    },
+    {
+      "run_id": "A6b-runpod-allam-no-arg",
+      "seed": 20260618,
+      "decision": "rejected",
+      "reason": "failed output contract with all none predictions",
+      "internal_results": [
+        {
+          "split": "internal lockbox",
+          "track_a": 0.00494
+        }
+      ]
+    },
+    {
+      "run_id": "B1-runpod-track-b-continuation",
+      "seed": 20260618,
+      "decision": "rejected",
+      "reason": "damaged function selection",
+      "internal_results": [
+        {
+          "split": "internal lockbox",
+          "fnacc": 0.709953,
+          "argem": 0.581818,
+          "track_a": 0.633072,
+          "track_b": 0.703895
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+model: Qwen/Qwen2.5-7B-Instruct
+adapter: arabic-aisa/arabicfc-7b
+track: A
+batch: 16
+max_new: 128
+postprocess: true
+postprocess_ruleset: surface_v2

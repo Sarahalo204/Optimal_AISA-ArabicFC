@@ -1,0 +1,11 @@
+{
+  "artifact_type": "peft_lora_adapter",
+  "base_model": "Qwen/Qwen2.5-7B-Instruct",
+  "base_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "adapter_repo": "arabic-aisa/arabicfc-7b",
+  "adapter_revision": "57aa2ab514e8fca42a5643df3fec8b0157b5437d",
+  "private": true,
+  "selected_finalist": "G0-qwen2.5-7b-qlora-3ep",
+  "default_ruleset": "accepted",
+  "public_dev_candidate_ruleset": "surface_v2"
+}

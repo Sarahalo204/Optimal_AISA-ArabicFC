@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-06-20T05:00:09+03:00",
+  "repos": [
+    {
+      "kind": "model",
+      "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+      "sha": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "license": "apache-2.0",
+      "license_link": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/blob/main/LICENSE"
+    },
+    {
+      "kind": "model",
+      "repo_id": "arabic-aisa/arabicfc-7b",
+      "sha": "57aa2ab514e8fca42a5643df3fec8b0157b5437d",
+      "latest_repo_sha_after_card_update": "721cfe25768780eb18a27824239b5564566ba338",
+      "license": null,
+      "notes": "Private PEFT adapter for selected G0 solution artifact; scored adapter files are at sha. Latest repo sha only updates the model card."
+    },
+    {
+      "kind": "dataset",
+      "repo_id": "arabic-aisa/aisa-arabicfc-solution",
+      "renamed_from": "dadaev/arabicfc-handoff",
+      "sha_after_rename": "8bc44f384fe18f83758b5f9b07c63e6638d76019",
+      "initial_upload_sha": "eab91a4cf38d8ca889cc6bd69ea539fd8c11482f",
+      "first_slim_upload_sha": "b82fc06cf99bbe1825842bf5c6a7b6e1fb57e8d8",
+      "license": null,
+      "private": true,
+      "notes": "Private HF copy of the slim solution package. The final package SHA is tracked in docs/experiment-registry.md because uploading this manifest changes the dataset SHA."
+    },
+    {
+      "kind": "dataset",
+      "repo_id": "TuwaiqAcademy/AISA-ArabicFC",
+      "sha": "1a5e5f8a9eeadd996118a8a86f72c4285047a00e",
+      "license": "apache-2.0"
+    },
+    {
+      "kind": "space",
+      "repo_id": "TuwaiqAcademy/AISA-ArabicFC-Shared-Task",
+      "sha": "23afc7694a2eea290736ed8f29bed71d6c97a63b",
+      "license": "apache-2.0"
+    },
+    {
+      "kind": "space",
+      "repo_id": "TuwaiqAcademy/AISA-ArabicFC-SharedTask-Leaderboard",
+      "sha": "f73d1f95d2ccd3219e01cf2aa68173018acd9e0d",
+      "license": "apache-2.0"
+    }
+  ]
+}

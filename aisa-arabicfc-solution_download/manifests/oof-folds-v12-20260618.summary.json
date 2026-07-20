@@ -1,0 +1,62 @@
+{
+  "counts": {
+    "0": 2110,
+    "1": 2110,
+    "2": 2111,
+    "3": 2110,
+    "4": 2109
+  },
+  "dialects": {
+    "0": {
+      "egyptian": 257,
+      "gulf": 238,
+      "levantine": 356,
+      "maghrebi": 29,
+      "msa": 1230
+    },
+    "1": {
+      "egyptian": 257,
+      "gulf": 238,
+      "levantine": 357,
+      "maghrebi": 28,
+      "msa": 1230
+    },
+    "2": {
+      "egyptian": 257,
+      "gulf": 238,
+      "levantine": 357,
+      "maghrebi": 29,
+      "msa": 1230
+    },
+    "3": {
+      "egyptian": 256,
+      "gulf": 238,
+      "levantine": 357,
+      "maghrebi": 28,
+      "msa": 1231
+    },
+    "4": {
+      "egyptian": 256,
+      "gulf": 238,
+      "levantine": 357,
+      "maghrebi": 28,
+      "msa": 1230
+    }
+  },
+  "n_folds": 5,
+  "n_total": 10550,
+  "no_call_counts": {
+    "0": 10,
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10
+  },
+  "positive_counts": {
+    "0": 2100,
+    "1": 2100,
+    "2": 2101,
+    "3": 2100,
+    "4": 2099
+  }
+}

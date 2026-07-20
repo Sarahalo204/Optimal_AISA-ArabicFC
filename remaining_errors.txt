@@ -1,0 +1,438 @@
+
+--- ERROR 1 | Sample ID: 15 ---
+Question: أريد حجز موعد مع طبيب الأطفال في أبو ظبي يوم 15 أكتوبر
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [specialty]: Pred='طبيب الأطفال' | GT='طب الأطفال'
+
+--- ERROR 2 | Sample ID: 16 ---
+Question: احجز لي موعدًا مع طبيب نسائية في الرياض الأسبوع القادم
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [specialty]: Pred='نسائية' | GT='طبيب نسائية'
+Mismatch [date]: Pred='next week' | GT='الأسبوع القادم'
+
+--- ERROR 3 | Sample ID: 17 ---
+Question: أريد البحث عن فنادق في القاهرة من 1 فبراير إلى 10 فبراير لشخصين
+Tool: Pred=search_hotels | GT=search_hotels
+Mismatch [check_in]: Pred='2024-02-01' | GT='2023-02-01'
+Mismatch [check_out]: Pred='2024-02-10' | GT='2023-02-10'
+
+--- ERROR 4 | Sample ID: 48 ---
+Question: أريد تحويل 1200 ريال سعودي إلى حساب أحمد في البنك الأهلي
+Tool: Pred=transfer_money | GT=transfer_money
+Mismatch [recipient_name]: Pred='أحمد' | GT='Ahmed'
+
+--- ERROR 5 | Sample ID: 60 ---
+Question: عايز أطلب أكل من مطعم كوك دور، والطلبات هي شيش طاووق وكوكاكولا
+Tool: Pred=order_food | GT=order_food
+Mismatch [items]: Pred='شيش طاووق, كوكاكولا' | GT='شيش طاووق وكوكاكولا'
+
+--- ERROR 6 | Sample ID: 63 ---
+Question: ما مقدار مكافأة نهاية الخدمة لراتب ٧٠٠٠ ريال لمدة ٥ سنوات مع إنهاء عقد؟
+Tool: Pred=calculate_end_of_service | GT=calculate_end_of_service
+Mismatch [termination_type]: Pred='end_of_contract' | GT='<MISSING>'
+
+--- ERROR 7 | Sample ID: 66 ---
+Question: ممكن تحسبلي مكافأة نهاية الخدمة لراتب ٥٠٠٠ جنيه وسنة ١٠ سنين وإنهاء العقد كان بإرادة الموظف
+Tool: Pred=calculate_end_of_service | GT=calculate_end_of_service
+Mismatch [termination_type]: Pred='resignation' | GT='<MISSING>'
+
+--- ERROR 8 | Sample ID: 73 ---
+Question: حاسب لي زكاة المال لو عندي 50000 جنيه
+Tool: Pred=calculate_zakat | GT=calculate_zakat
+Mismatch [currency]: Pred='EGP' | GT='جنيه'
+
+--- ERROR 9 | Sample ID: 74 ---
+Question: ممكن تعرفني الفرق في الأسعار بين تليفزيون LG في مصر والسعودية؟
+Tool: Pred=compare_prices | GT=compare_prices
+Mismatch [country]: Pred='مصر' | GT='مصر والسعودية'
+
+--- ERROR 10 | Sample ID: 75 ---
+Question: بغي نحول ٢ مليون درهم لحساب خويا فطنجة، شنو هي الإجراءات؟
+Tool: Pred=none | GT=transfer_money
+Mismatch [amount]: Pred='<MISSING>' | GT=2000000.0
+
+--- ERROR 11 | Sample ID: 78 ---
+Question: أحتاج أحجز موعد عند دكتور أسنان في جدة يوم الخميس
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [date]: Pred='الخميس' | GT='يوم الخميس'
+
+--- ERROR 12 | Sample ID: 103 ---
+Question: ابي اطلب برجر من مطعم تكساس وحط لي بطاطس وبيبسي
+Tool: Pred=order_food | GT=order_food
+Mismatch [restaurant]: Pred='Texas' | GT='تكساس'
+
+--- ERROR 13 | Sample ID: 134 ---
+Question: نطلب بيتزا من دومينوز عليها جبنة زيادة
+Tool: Pred=order_food | GT=order_food
+Mismatch [items]: Pred='جبنة زيادة' | GT='بيتزا بالجبنة زيادة'
+
+--- ERROR 14 | Sample ID: 139 ---
+Question: عايز أحول ٢٠٠٠ يورو لماريا في اسبانيا رقم الحساب ES9121000418450200051332
+Tool: Pred=transfer_money | GT=transfer_money
+Mismatch [recipient_name]: Pred='ماريا' | GT='Maria'
+
+--- ERROR 15 | Sample ID: 141 ---
+Question: ازاي أحسب مكافأة نهاية الخدمة لو مرتبي ٥٠٠٠ جنيه واشتغلت ١٠ سنين وتم الاستغناء عني؟
+Tool: Pred=calculate_end_of_service | GT=calculate_end_of_service
+Mismatch [termination_type]: Pred='dismissal' | GT='economic'
+
+--- ERROR 16 | Sample ID: 143 ---
+Question: أعرف كام جنية مصري هياخدوا نص مليون دولار؟
+Tool: Pred=convert_currency | GT=convert_currency
+Mismatch [from_currency]: Pred='EGP' | GT='USD'
+Mismatch [to_currency]: Pred='USD' | GT='EGP'
+
+--- ERROR 17 | Sample ID: 149 ---
+Question: أريد تحويل ٥٠٠٠ درهم إلى حساب أحمد في الإمارات
+Tool: Pred=transfer_money | GT=transfer_money
+Mismatch [currency]: Pred='AED' | GT='درهم'
+
+--- ERROR 18 | Sample ID: 150 ---
+Question: أرغب في تحويل 500 دينار كويتي لحساب فاطمة حسين برقم IBAN KW81CBKU0000000000001234560101
+Tool: Pred=transfer_money | GT=transfer_money
+Mismatch [recipient_name]: Pred='فاطمة حسين' | GT='Fatima Hussein'
+
+--- ERROR 19 | Sample ID: 161 ---
+Question: ترجملي هاي الجملة للعربي الفصيح
+Tool: Pred=translate_text | GT=translate_text
+Mismatch [text]: Pred='I need help' | GT='هاي الجملة'
+
+--- ERROR 20 | Sample ID: 165 ---
+Question: كم تكون مكافأة نهاية الخدمة إذا راتبي 5000 ريال وخدمت 10 سنوات؟
+Tool: Pred=calculate_end_of_service | GT=calculate_end_of_service
+Mismatch [termination_type]: Pred='end_of_contract' | GT='<MISSING>'
+
+--- ERROR 21 | Sample ID: 170 ---
+Question: أحتاج إلى استشارة مع طبيب أمراض جلدية في مكة يوم الأربعاء.
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [date]: Pred='Wednesday' | GT='2023-10-11'
+
+--- ERROR 22 | Sample ID: 172 ---
+Question: أريد مقارنة أسعار الهواتف بين المتاجر
+Tool: Pred=compare_prices | GT=compare_prices
+Mismatch [product_name]: Pred='<MISSING>' | GT='هواتف'
+Mismatch [category]: Pred='<MISSING>' | GT='هواتف'
+
+--- ERROR 23 | Sample ID: 178 ---
+Question: فيه فنادق كويسة في أبوظبي من 5 ديسمبر الى 10 ديسمبر لشخص واحد؟
+Tool: Pred=search_hotels | GT=search_hotels
+Mismatch [check_in]: Pred='2023-12-05' | GT='05-12-2023'
+Mismatch [check_out]: Pred='2023-12-10' | GT='10-12-2023'
+
+--- ERROR 24 | Sample ID: 180 ---
+Question: ودي احجز موعد مع دكتور أنف وأذن وحنجرة في المنامة.
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [specialty]: Pred='أنف وأذن وحنجرة' | GT='دكتور أنف وأذن وحنجرة'
+
+--- ERROR 25 | Sample ID: 202 ---
+Question: كيف أحسب زكاة المال إذا عندي ٥٠٠٠ دولار؟
+Tool: Pred=calculate_zakat | GT=calculate_zakat
+Mismatch [type]: Pred='cash' | GT='<MISSING>'
+Mismatch [currency]: Pred='دولار' | GT='USD'
+
+--- ERROR 26 | Sample ID: 218 ---
+Question: كيف أسعار آيفون ببيروت؟
+Tool: Pred=compare_prices | GT=compare_prices
+Mismatch [country]: Pred='لبنان' | GT='بيروت'
+
+--- ERROR 27 | Sample ID: 220 ---
+Question: أحتاج حجز موعد مع طبيب أمراض جلدية في مدينة الكويت دون تحديد تاريخ
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [specialty]: Pred='طبيب أمراض جلدية' | GT='أمراض جلدية'
+Mismatch [city]: Pred='الكويت' | GT='مدينة الكويت'
+
+--- ERROR 28 | Sample ID: 223 ---
+Question: ما هي مكافأة نهاية الخدمة لموظف براتب 8000 ريال ومدة الخدمة 10 سنوات؟
+Tool: Pred=calculate_end_of_service | GT=calculate_end_of_service
+Mismatch [termination_type]: Pred='end_of_contract' | GT='<MISSING>'
+
+--- ERROR 29 | Sample ID: 224 ---
+Question: بكم الجمارك على شنطة سفر قيمتها 300 دينار بحريني؟
+Tool: Pred=calculate_customs | GT=calculate_customs
+Mismatch [currency]: Pred='<MISSING>' | GT='BHD'
+Mismatch [category]: Pred='شنطة سفر' | GT='<MISSING>'
+
+--- ERROR 30 | Sample ID: 243 ---
+Question: أريد حساب مكافأة نهاية الخدمة لراتب 7000 جنيه ومدة خدمة 5 سنين، النوع إنهاء عقد
+Tool: Pred=calculate_end_of_service | GT=calculate_end_of_service
+Mismatch [termination_type]: Pred='end_of_contract' | GT='<MISSING>'
+
+--- ERROR 31 | Sample ID: 249 ---
+Question: أحتاج دواء للرشح في الكويت
+Tool: Pred=search_medications | GT=search_medications
+Mismatch [medication_name]: Pred='دواء للرشح' | GT='دواء الرشح'
+
+--- ERROR 32 | Sample ID: 250 ---
+Question: عايز أحجز فندق في الإسكندرية من ١٠ ل ٢٠ نوفمبر لو سمحت
+Tool: Pred=search_hotels | GT=search_hotels
+Mismatch [check_in]: Pred='2023-11-10' | GT='١٠ نوفمبر'
+Mismatch [check_out]: Pred='2023-11-20' | GT='٢٠ نوفمبر'
+
+--- ERROR 33 | Sample ID: 257 ---
+Question: ابحث لي في القرآن عن آية تتحدث عن الصبر
+Tool: Pred=search_quran | GT=search_quran
+Mismatch [search_type]: Pred='<MISSING>' | GT='verse'
+
+--- ERROR 34 | Sample ID: 263 ---
+Question: ممكن تحجز لي موعد عند دكتور قلب في الإسكندرية بكرة؟
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [date]: Pred='tomorrow' | GT='بكرة'
+
+--- ERROR 35 | Sample ID: 268 ---
+Question: بغيت نحول ٣٠٠٠٠ درهم مغربية لصديقي ففرنسا
+Tool: Pred=transfer_money | GT=transfer_money
+Mismatch [recipient_name]: Pred='صديقي' | GT='my friend'
+
+--- ERROR 36 | Sample ID: 274 ---
+Question: أود حجز موعد عند طبيب أسنان في الرياض
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [specialty]: Pred='أسنان' | GT='طبيب أسنان'
+
+--- ERROR 37 | Sample ID: 276 ---
+Question: عايز أعرف الدكاترة المتخصصين في النساء والتوليد في الجيزة.
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [specialty]: Pred='النساء والتوليد' | GT='نساء وتوليد'
+
+--- ERROR 38 | Sample ID: 280 ---
+Question: شو في فنادق بدمشق من 5 ديسمبر ل10 ديسمبر؟
+Tool: Pred=search_hotels | GT=search_hotels
+Mismatch [check_in]: Pred='2023-12-05' | GT='05-12'
+Mismatch [check_out]: Pred='2023-12-10' | GT='10-12'
+
+--- ERROR 39 | Sample ID: 286 ---
+Question: بدي أطلب من مطعم اللقمة: مناقيش زعتر، كباب حلبي وورق عنب
+Tool: Pred=order_food | GT=order_food
+Mismatch [restaurant]: Pred='Al-Lqema' | GT='مطعم اللقمة'
+Mismatch [items]: Pred='Manaqish zaatar, Kebab Halabi, Warka Anbar' | GT='مناقيش زعتر, كباب حلبي, ورق عنب'
+
+--- ERROR 40 | Sample ID: 289 ---
+Question: ابغي احول ١٠٠٠ درهم إلى حساب محمد في بنك HSBC، رقم الايبان AE070331234567890123456
+Tool: Pred=transfer_money | GT=transfer_money
+Mismatch [recipient_name]: Pred='محمد' | GT='Mohammed'
+
+--- ERROR 41 | Sample ID: 290 ---
+Question: بدي أحول ١٠٠ دينار أردني لدولار
+Tool: Pred=convert_currency | GT=convert_currency
+Mismatch [to_currency]: Pred='USD' | GT='دولار'
+
+--- ERROR 42 | Sample ID: 294 ---
+Question: أبي أشوف فنادق متاحة في أبوظبي من تاريخ ١ نوفمبر لين ٥ نوفمبر لشخصين
+Tool: Pred=search_hotels | GT=search_hotels
+Mismatch [check_in]: Pred='2023-11-01' | GT='1 نوفمبر'
+Mismatch [check_out]: Pred='2023-11-05' | GT='5 نوفمبر'
+
+--- ERROR 43 | Sample ID: 295 ---
+Question: أبي أعرف إذا تأميني رقم 1122334 يغطي عملية التجميل
+Tool: Pred=check_insurance_coverage | GT=check_insurance_coverage
+Mismatch [procedure]: Pred='عملية التجميل' | GT='التجميل'
+
+--- ERROR 44 | Sample ID: 296 ---
+Question: شو أسعار تلفزيون LG بدمشق؟
+Tool: Pred=compare_prices | GT=compare_prices
+Mismatch [country]: Pred='سوريا' | GT='دمشق'
+
+--- ERROR 45 | Sample ID: 298 ---
+Question: كيف الجو في بيروت اليوم؟
+Tool: Pred=get_weather | GT=get_weather
+Mismatch [days]: Pred='<MISSING>' | GT=1.0
+
+--- ERROR 46 | Sample ID: 299 ---
+Question: إطلبلي أكل من كنتاكي: وجبة سبايسي واثنين بيبسي
+Tool: Pred=order_food | GT=order_food
+Mismatch [items]: Pred='وجبة سبايسي, بيبسي' | GT='وجبة سبايسي, اثنين بيبسي'
+
+--- ERROR 47 | Sample ID: 305 ---
+Question: محتاج أعرف إذا كان التأمين بتاعي بيغطي الكشف عند دكتور الأسنان
+Tool: Pred=check_insurance_coverage | GT=check_insurance_coverage
+Mismatch [procedure]: Pred='الكشف عند دكتور الأسنان' | GT='كشف الأسنان'
+
+--- ERROR 48 | Sample ID: 314 ---
+Question: كم ستكون مكافأة نهاية الخدمة إذا كنت أعمل لمدة ٥ سنوات براتب ٧٠٠٠ ريال وتوقفت عن العمل؟
+Tool: Pred=calculate_end_of_service | GT=calculate_end_of_service
+Mismatch [termination_type]: Pred='dismissal' | GT='<MISSING>'
+
+--- ERROR 49 | Sample ID: 315 ---
+Question: عايز أطلب بيتزا من دومينوز فيها جبنة وطماطم
+Tool: Pred=order_food | GT=order_food
+Mismatch [items]: Pred='جبنة, طماطم' | GT='جبنة وطماطم'
+
+--- ERROR 50 | Sample ID: 324 ---
+Question: بدور على فنادق باربع نجوم بعمان من ١٧ ل٢٢ نوفمبر لثنين ضيوف
+Tool: Pred=search_hotels | GT=search_hotels
+Mismatch [check_in]: Pred='2023-11-17' | GT='17-11-2023'
+Mismatch [check_out]: Pred='2023-11-22' | GT='22-11-2023'
+
+--- ERROR 51 | Sample ID: 328 ---
+Question: بغيت ناخذ موعد عند طبيب الأطفال ففاس نهار الجمعة
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [specialty]: Pred='pediatrician' | GT='طبيب الأطفال'
+Mismatch [city]: Pred='Fes' | GT='فاس'
+Mismatch [date]: Pred='Friday' | GT='نهار الجمعة'
+
+--- ERROR 52 | Sample ID: 330 ---
+Question: طلبت بيتزا من مطعم دومينوز، الطلب بيتزا مارجريتا وبيبسي
+Tool: Pred=order_food | GT=order_food
+Mismatch [items]: Pred='بيتزا مارجريتا, بيبسي' | GT='بيتزا مارجريتا وبيبسي'
+
+--- ERROR 53 | Sample ID: 332 ---
+Question: أبي أحول ١٠٠٠ درهم لحساب عيسى في عمان رقم الحساب OM1122334455
+Tool: Pred=transfer_money | GT=transfer_money
+Mismatch [currency]: Pred='AED' | GT='درهم'
+
+--- ERROR 54 | Sample ID: 336 ---
+Question: عايز أطلب بيتزا من دومينوز: 1 مارجريتا و1 سوبر سوبريم
+Tool: Pred=order_food | GT=order_food
+Mismatch [items]: Pred='1 مارجريتا و1 سوبر سوبريم' | GT='1 مارجريتا, 1 سوبر سوبريم'
+
+--- ERROR 55 | Sample ID: 342 ---
+Question: ممكن تقول لي الجو عامل إزاي في الأقصر النهارده؟
+Tool: Pred=get_weather | GT=get_weather
+Mismatch [days]: Pred='<MISSING>' | GT=1.0
+
+--- ERROR 56 | Sample ID: 361 ---
+Question: وش الأدوية اللي متوفرة لعلاج الربو؟
+Tool: Pred=search_medications | GT=search_medications
+Mismatch [medication_name]: Pred='الربو' | GT='علاج الربو'
+
+--- ERROR 57 | Sample ID: 377 ---
+Question: هل يوجد فنادق في الدوحة من ٢٣ إلى ٢٨ مايو؟
+Tool: Pred=search_hotels | GT=search_hotels
+Mismatch [check_in]: Pred='23-05-2023' | GT='2023-05-23'
+Mismatch [check_out]: Pred='28-05-2023' | GT='2023-05-28'
+
+--- ERROR 58 | Sample ID: 378 ---
+Question: أريد أن أطلب طعام من مطعم برجر كنج يشمل وجبة وافل وبيبسي.
+Tool: Pred=order_food | GT=order_food
+Mismatch [items]: Pred='وجبة, وافل, بيبسي' | GT='وجبة وافل, بيبسي'
+
+--- ERROR 59 | Sample ID: 401 ---
+Question: كيف حالة الطقس في القاهرة اليوم؟
+Tool: Pred=get_weather | GT=get_weather
+Mismatch [days]: Pred='<MISSING>' | GT=1.0
+
+--- ERROR 60 | Sample ID: 407 ---
+Question: محتاج أعرف حالة التأشيرة بتاعتي
+Tool: Pred=check_visa_status | GT=check_visa_status
+Mismatch [passport_number]: Pred='A1234567' | GT='<MISSING>'
+
+--- ERROR 61 | Sample ID: 412 ---
+Question: فين نلقى دواء ديال الدياليز؟
+Tool: Pred=search_medications | GT=search_medications
+Mismatch [medication_name]: Pred='ديال الدياليز' | GT='الدياليز'
+
+--- ERROR 62 | Sample ID: 415 ---
+Question: شو جودة الهواء بعمّان اليوم؟
+Tool: Pred=get_air_quality | GT=get_air_quality
+Mismatch [city]: Pred='عمّان' | GT='عمان'
+
+--- ERROR 63 | Sample ID: 416 ---
+Question: كيف أحسب زكاة 500000 درهم من المال؟
+Tool: Pred=calculate_zakat | GT=calculate_zakat
+Mismatch [currency]: Pred='درهم' | GT='AED'
+
+--- ERROR 64 | Sample ID: 441 ---
+Question: كيفاش نحسب زكاة المال على ١٠٠٠٠ درهم؟
+Tool: Pred=calculate_zakat | GT=calculate_zakat
+Mismatch [currency]: Pred='MAD' | GT='درهم'
+
+--- ERROR 65 | Sample ID: 442 ---
+Question: محتاج أحجز مع دكتور جهاز هضمي في طنطا يوم الاتنين
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [date]: Pred='الاثنين' | GT='يوم الاتنين'
+
+--- ERROR 66 | Sample ID: 443 ---
+Question: بدي اعرف فنادق منيحة ببيروت لشخصين من ١ فبراير ل٥ فبراير.
+Tool: Pred=search_hotels | GT=search_hotels
+Mismatch [check_in]: Pred='2023-02-01' | GT='١ فبراير'
+Mismatch [check_out]: Pred='2023-02-05' | GT='٥ فبراير'
+
+--- ERROR 67 | Sample ID: 448 ---
+Question: شلون الجو في الرياض اليوم؟
+Tool: Pred=get_weather | GT=get_weather
+Mismatch [days]: Pred='<MISSING>' | GT=1.0
+
+--- ERROR 68 | Sample ID: 449 ---
+Question: عايز أحول ١٥٠٠ دولار لحسن في مصر رقم الحساب EG210000102010000678940
+Tool: Pred=transfer_money | GT=transfer_money
+Mismatch [recipient_name]: Pred='حسن' | GT='Hassan'
+
+--- ERROR 69 | Sample ID: 454 ---
+Question: كيف بحسب زكاة المال عن ٢٠٠٠ دولار؟
+Tool: Pred=calculate_zakat | GT=calculate_zakat
+Mismatch [currency]: Pred='دولار' | GT='USD'
+
+--- ERROR 70 | Sample ID: 471 ---
+Question: أحتاج أحجز موعد مع طبيب الجلدية في دبي الأسبوع الجاي
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [specialty]: Pred='طبيب جلدية' | GT='الجلدية'
+Mismatch [date]: Pred='الأسبوع الجاي' | GT='الأسبوع القادم'
+
+--- ERROR 71 | Sample ID: 482 ---
+Question: أريد حجز موعد لطبيب الأمراض الجلدية في جدة بعد غد.
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [specialty]: Pred='الجلدية' | GT='الأمراض الجلدية'
+Mismatch [date]: Pred='the day after tomorrow' | GT='after tomorrow'
+
+--- ERROR 72 | Sample ID: 486 ---
+Question: ما هي مكافأة نهاية الخدمة إذا كنت أعمل منذ 5 سنوات وراتبي 3000 ريال وتم إنهاء العقد برضاي؟
+Tool: Pred=calculate_end_of_service | GT=calculate_end_of_service
+Mismatch [termination_type]: Pred='mutual_consent' | GT='<MISSING>'
+
+--- ERROR 73 | Sample ID: 488 ---
+Question: إزاي أحسب زكاة المال لو عندي ٥٠٠٠ جنيه؟
+Tool: Pred=calculate_zakat | GT=calculate_zakat
+Mismatch [currency]: Pred='EGP' | GT='جنيه'
+
+--- ERROR 74 | Sample ID: 500 ---
+Question: كيف احسب مكافأة نهاية الخدمة براتب ١٠٠٠٠ ومدة خدمة ٥ سنوات؟
+Tool: Pred=calculate_end_of_service | GT=calculate_end_of_service
+Mismatch [termination_type]: Pred='end_of_contract' | GT='<MISSING>'
+
+--- ERROR 75 | Sample ID: 507 ---
+Question: عايز أحجز عند دكتور أمراض قلب في القاهرة يوم الأربعاء
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [date]: Pred='Wednesday' | GT='الأربعاء'
+
+--- ERROR 76 | Sample ID: 509 ---
+Question: ليش الجو في الخليج حار أكثر من لبنان؟
+Tool: Pred=get_weather | GT=none
+Mismatch [country]: Pred='لبنان' | GT='<MISSING>'
+Mismatch [city]: Pred='الخليج' | GT='<MISSING>'
+
+--- ERROR 77 | Sample ID: 510 ---
+Question: لو سمحت، بدي أرسل ٣٠٠٠ جنيه مصري لأحمد بمصر، شو الإجراءات؟
+Tool: Pred=transfer_money | GT=transfer_money
+Mismatch [recipient_iban]: Pred='<MISSING>' | GT='مصر'
+
+--- ERROR 78 | Sample ID: 513 ---
+Question: ممكن أحجز موعد مع دكتور أطفال في إسكندرية بكره؟
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [date]: Pred='بكره' | GT='tomorrow'
+
+--- ERROR 79 | Sample ID: 527 ---
+Question: ابحث لي عن فنادق في إسطنبول من العشرين إلى الخامس والعشرين من يونيو.
+Tool: Pred=search_hotels | GT=search_hotels
+Mismatch [check_in]: Pred='2024-06-20' | GT='2023-06-20'
+Mismatch [check_out]: Pred='2024-06-25' | GT='2023-06-25'
+
+--- ERROR 80 | Sample ID: 528 ---
+Question: أنا عايز أطلب أكل من مطعم المحروسة، عايز كباب و2 كفتة
+Tool: Pred=order_food | GT=order_food
+Mismatch [items]: Pred='كباب,2 كفتة' | GT='كباب, 2 كفتة'
+
+--- ERROR 81 | Sample ID: 529 ---
+Question: عايز أطلب أكلة من مطعم البركة. عايز بيتزا وكولا.
+Tool: Pred=order_food | GT=order_food
+Mismatch [items]: Pred='بيتزا وكولا' | GT='بيتزا, كولا'
+
+--- ERROR 82 | Sample ID: 538 ---
+Question: ودي دكتور أطفال في جدة بعد بكرة
+Tool: Pred=book_doctor_appointment | GT=book_doctor_appointment
+Mismatch [date]: Pred='بعد بكرة' | GT='2023-10-12'
+
+--- ERROR 83 | Sample ID: 541 ---
+Question: عايز أقارن أسعار الآيفون في مصر والهند
+Tool: Pred=compare_prices | GT=compare_prices
+Mismatch [country]: Pred='مصر، الهند' | GT='مصر والهند'
+
+Total Errors: 83
